@@ -1,0 +1,12 @@
+{
+    "port": 8000,
+    "open": "local",
+    "_comment": "Decide which URL to open automatically when Browsersync starts. Defaults to local if none set. Can be true, local, external, ui, ui-external, tunnel or false. Loglevel Can be either info, debug, warn, or silent",
+    "logLevel": "debug",
+    "files": [
+        "./build/**/*.{html,htm,css,js}"
+    ],
+    "server": {
+        "baseDir": "./build"
+    }
+}

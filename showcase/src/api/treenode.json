@@ -1,0 +1,272 @@
+{
+    "data": [{
+            "data": {
+                "name": "Equity",
+                "IRR": "29.99%",
+                "allocation": "37.97%",
+                "quantity": "",
+                "averagecost": "",
+                "marketpriceon": "",
+                "purchasevalue": "5,86,39,443.15",
+                "valueon ": "8,28,96,200.50",
+                "URGainLossIRR": "2,42,56,757.35",
+                "URGainLossPer": "41.37%"
+            },
+            "children": [{
+                    "data": {
+                        "name": "Stocks",
+                        "IRR": "29.99%",
+                        "allocation": "37.97%",
+                        "quantity": "",
+                        "averagecost": "",
+                        "marketpriceon": "",
+                        "purchasevalue": "5,86,39,443.15",
+                        "Value on ": "8,28,96,200.50",
+                        "URGainLossIRR": "2,42,56,757.35",
+                        "URGainLossPer": "41.37%"
+                    },
+                    "children": [{
+                            "data": {
+                                "name": "ABB India(Gurunath Kale: 323232435: INR)",
+                                "IRR": "29.99%",
+                                "allocation": "37.97%",
+                                "quantity": "",
+                                "averagecost": "",
+                                "marketpriceon": "",
+                                "purchasevalue": "5,86,39,443.15",
+                                "Value on ": "8,28,96,200.50",
+                                "URGainLossIRR": "2,42,56,757.35",
+                                "URGainLossPer": "41.37%"
+                            }
+                        },
+                        {
+                            "data": {
+                                "name": "Bata india",
+                                "IRR": "29.99%",
+                                "allocation": "37.97%",
+                                "quantity": "",
+                                "averagecost": "",
+                                "marketpriceon": "",
+                                "purchasevalue": "5,86,39,443.15",
+                                "Value on ": "8,28,96,200.50",
+                                "URGainLossIRR": "2,42,56,757.35",
+                                "URGainLossPer": "41.37%"
+                            }
+                        },
+                        {
+                            "data": {
+                                "name": "Biocon",
+                                "IRR": "136,937.18%",
+                                "allocation": "37.97%",
+                                "quantity": "",
+                                "averagecost": "",
+                                "marketpriceon": "",
+                                "purchasevalue": "5,86,39,443.15",
+                                "Value on ": "8,28,96,200.50",
+                                "URGainLossIRR": "2,42,56,757.35",
+                                "URGainLossPer": "41.37%"
+                            }
+                        },
+                        {
+                            "data": {
+                                "name": "Crompt.Greaves Cons.",
+                                "IRR": "29.99%",
+                                "allocation": "37.97%",
+                                "quantity": "",
+                                "averagecost": "",
+                                "marketpriceon": "",
+                                "purchasevalue": "5,86,39,443.15",
+                                "Value on ": "8,28,96,200.50",
+                                "URGainLossIRR": "2,42,56,757.35",
+                                "URGainLossPer": "41.37%"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "data": {
+                        "name": "Equity Mutual Funds",
+                        "IRR": "29.99%",
+                        "allocation": "37.97%",
+                        "quantity": "",
+                        "averagecost": "",
+                        "marketpriceon": "",
+                        "purchasevalue": "5,86,39,443.15",
+                        "Value on ": "8,28,96,200.50",
+                        "URGainLossIRR": "2,42,56,757.35",
+                        "URGainLossPer": "41.37%"
+                    },
+                    "children": [{
+                        "data": {
+                            "name": "DSPBR Balanced FundReg(D)(Gurunath Kale: 3300411/42: INR)",
+                            "IRR": "29.99%",
+                            "allocation": "37.97%",
+                            "quantity": "",
+                            "averagecost": "",
+                            "marketpriceon": "",
+                            "purchasevalue": "5,86,39,443.15",
+                            "Value on ": "8,28,96,200.50",
+                            "URGainLossIRR": "2,42,56,757.35",
+                            "URGainLossPer": "41.37%"
+                        }
+                    }]
+                }
+            ]
+        },
+        {
+            "data": {
+                "name": "Fixed Income",
+                "IRR": "29.99%",
+                "allocation": "37.97%",
+                "quantity": "",
+                "averagecost": "",
+                "marketpriceon": "",
+                "purchasevalue": "5,86,39,443.15",
+                "Value on ": "8,28,96,200.50",
+                "URGainLossIRR": "2,42,56,757.35",
+                "URGainLossPer": "41.37%"
+            },
+            "children": [{
+                    "data": {
+                        "name": "Bonds and Debentures",
+                        "allocation": "37.97%",
+                        "quantity": "",
+                        "averagecost": "",
+                        "marketpriceon": "",
+                        "purchasevalue": "5,86,39,443.15",
+                        "Value on ": "8,28,96,200.50",
+                        "URGainLossIRR": "2,42,56,757.35",
+                        "URGainLossPer": "41.37%"
+                    },
+                    "children": [{
+                            "data": {
+                                "name": "GK Bond",
+                                "IRR": "29.99%",
+                                "allocation": "37.97%",
+                                "quantity": "",
+                                "averagecost": "",
+                                "marketpriceon": "",
+                                "purchasevalue": "5,86,39,443.15",
+                                "Value on ": "8,28,96,200.50",
+                                "URGainLossIRR": "2,42,56,757.35",
+                                "URGainLossPer": "41.37%"
+                            }
+                        },
+                        {
+                            "data": {
+                                "name": "NATIONAL HIGHWAYS AUTHORITY OF INDIA FV1000",
+                                "IRR": "29.99%",
+                                "allocation": "37.97%",
+                                "quantity": "",
+                                "averagecost": "",
+                                "marketpriceon": "",
+                                "purchasevalue": "5,86,39,443.15",
+                                "Value on ": "8,28,96,200.50",
+                                "URGainLossIRR": "2,42,56,757.35",
+                                "URGainLossPer": "41.37%"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "data": {
+                        "name": "Fixed Deposit",
+                        "allocation": "37.97%",
+                        "quantity": "",
+                        "averagecost": "",
+                        "marketpriceon": "",
+                        "purchasevalue": "5,86,39,443.15",
+                        "Value on ": "8,28,96,200.50",
+                        "URGainLossIRR": "2,42,56,757.35",
+                        "URGainLossPer": "41.37%"
+                    },
+                    "children": [{
+                        "data": {
+                            "name": "STATE BANK OF INDIA KOLKATA MAIN#Fixed Deposit",
+                            "IRR": "29.99%",
+                            "allocation": "37.97%",
+                            "quantity": "",
+                            "averagecost": "",
+                            "marketpriceon": "",
+                            "purchasevalue": "5,86,39,443.15",
+                            "Value on ": "8,28,96,200.50",
+                            "URGainLossIRR": "2,42,56,757.35",
+                            "URGainLossPer": "41.37%"
+                        }
+                    }]
+                },
+                {
+                    "data": {
+                        "name": "Public Provident Fund",
+                        "IRR": "29.99%",
+                        "allocation": "37.97%",
+                        "quantity": "",
+                        "averagecost": "",
+                        "marketpriceon": "",
+                        "purchasevalue": "5,86,39,443.15",
+                        "Value on ": "8,28,96,200.50",
+                        "URGainLossIRR": "2,42,56,757.35",
+                        "URGainLossPer": "41.37%"
+                    }
+                },
+                {
+                    "data": {
+                        "name": " Liquid Funds",
+                        "IRR": "29.99%",
+                        "allocation": "37.97%",
+                        "quantity": "",
+                        "averagecost": "",
+                        "marketpriceon": "",
+                        "purchasevalue": "5,86,39,443.15",
+                        "Value on ": "8,28,96,200.50",
+                        "URGainLossIRR": "2,42,56,757.35",
+                        "URGainLossPer": "41.37%"
+                    }
+                },
+                {
+                    "data": {
+                        "name": "Short Term Income Funds",
+                        "IRR": "29.99%",
+                        "allocation": "37.97%",
+                        "quantity": "",
+                        "averagecost": "",
+                        "marketpriceon": "",
+                        "purchasevalue": "5,86,39,443.15",
+                        "Value on ": "8,28,96,200.50",
+                        "URGainLossIRR": "2,42,56,757.35",
+                        "URGainLossPer": "41.37%"
+                    }
+                },
+                {
+                    "data": {
+                        "name": "Debt Funds",
+                        "IRR": "29.99%",
+                        "allocation": "37.97%",
+                        "quantity": "",
+                        "averagecost": "",
+                        "marketpriceon": "",
+                        "purchasevalue": "5,86,39,443.15",
+                        "Value on ": "8,28,96,200.50",
+                        "URGainLossIRR": "2,42,56,757.35",
+                        "URGainLossPer": "41.37%"
+                    }
+                },
+                {
+                    "data": {
+                        "name": "Monthly Income Plan",
+                        "IRR": "29.99%",
+                        "allocation": "37.97%",
+                        "quantity": "",
+                        "averagecost": "",
+                        "marketpriceon": "",
+                        "purchasevalue": "5,86,39,443.15",
+                        "Value on ": "8,28,96,200.50",
+                        "URGainLossIRR": "2,42,56,757.35",
+                        "URGainLossPer": "41.37%"
+                    }
+                }
+
+            ]
+        }
+    ]
+}

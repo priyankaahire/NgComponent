@@ -1,0 +1,7616 @@
+[
+  {
+    "name": "AppModule",
+    "file": "src/app/app.module.ts",
+    "providers": [
+      {
+        "name": "RouterLink"
+      },
+      {
+        "name": "FormBuilder"
+      },
+      {
+        "name": "appRoutingProviders"
+      },
+      {
+        "name": "{ provide: ErrorHandler, useClass: AppErrorHandler }"
+      }
+    ],
+    "declarations": [
+      {
+        "name": "AppComponent",
+        "file": "src/app/app.component.ts",
+        "selector": "assetvantage",
+        "providers": [],
+        "templateUrl": [
+          "app.component.html"
+        ],
+        "styleUrls": [],
+        "__raw": [
+          {
+            "pos": 709,
+            "end": 768,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 709,
+              "end": 752,
+              "flags": 0,
+              "text": "selector"
+            },
+            "initializer": {
+              "pos": 753,
+              "end": 768,
+              "flags": 0,
+              "kind": 9,
+              "text": "assetvantage"
+            }
+          },
+          {
+            "pos": 769,
+            "end": 814,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 769,
+              "end": 786,
+              "flags": 0,
+              "text": "templateUrl"
+            },
+            "initializer": {
+              "pos": 787,
+              "end": 814,
+              "flags": 0,
+              "kind": 9,
+              "text": "./app/app.component.html"
+            }
+          },
+          {
+            "pos": 815,
+            "end": 1270,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 815,
+              "end": 827,
+              "flags": 0,
+              "text": "styles"
+            },
+            "initializer": {
+              "pos": 828,
+              "end": 1270,
+              "flags": 0,
+              "kind": 176,
+              "elements": [
+                {
+                  "pos": 830,
+                  "end": 1269,
+                  "flags": 0,
+                  "kind": 12,
+                  "text": "\n    .app_content>.title {\n      background-color: #008fca;\n      width: 35%;\n     }\n\n.table {\n    width: 100%;\n    display: table;\n}\n\n.heading {\n    display: table-row;\n    font-weight: bold;\n    text-align: center;\n}\n\n.row {\n    display: table-row;\n}\n\n.cell {\n    display: table-cell;\n    // border: solid;\n    border-width: thin;\n    padding-left: 5px;\n    padding-right: 5px;\n    // width: 18px;\n}\n\n\n  "
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "AppTestComponent"
+      }
+    ],
+    "imports": [
+      {
+        "name": "BrowserAnimationsModule"
+      },
+      {
+        "name": "NoopAnimationsModule"
+      },
+      {
+        "name": "ProgressBarModule"
+      },
+      {
+        "name": "BrowserModule"
+      },
+      {
+        "name": "HttpModule"
+      },
+      {
+        "name": "FormsModule"
+      },
+      {
+        "name": "appRouting"
+      },
+      {
+        "name": "RouterModule"
+      },
+      {
+        "name": "TabModule"
+      },
+      {
+        "name": "InputModule"
+      },
+      {
+        "name": "ButtonModule"
+      },
+      {
+        "name": "TypeaheadModule"
+      },
+      {
+        "name": "InfiniteScrollModule"
+      },
+      {
+        "name": "CardModule"
+      },
+      {
+        "name": "BreadcrumbModule"
+      },
+      {
+        "name": "SelectModule"
+      },
+      {
+        "name": "GlyphiconsModule"
+      },
+      {
+        "name": "FileUploadModule"
+      },
+      {
+        "name": "PanelModule"
+      },
+      {
+        "name": "CalendarModule"
+      },
+      {
+        "name": "ActionsModule"
+      },
+      {
+        "name": "NotificationsModule"
+      },
+      {
+        "name": "TextareaModule"
+      },
+      {
+        "name": "CheckboxModule"
+      },
+      {
+        "name": "MenuModule"
+      }
+    ],
+    "exports": [],
+    "bootstrap": [
+      {
+        "name": "AppComponent"
+      }
+    ],
+    "__raw": [
+      {
+        "pos": 2239,
+        "end": 2650,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 2239,
+          "end": 2249,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "pos": 2250,
+          "end": 2650,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 2252,
+              "end": 2276,
+              "flags": 0,
+              "text": "BrowserAnimationsModule"
+            },
+            {
+              "pos": 2277,
+              "end": 2298,
+              "flags": 0,
+              "text": "NoopAnimationsModule"
+            },
+            {
+              "pos": 2299,
+              "end": 2317,
+              "flags": 0,
+              "text": "ProgressBarModule"
+            },
+            {
+              "pos": 2318,
+              "end": 2332,
+              "flags": 0,
+              "text": "BrowserModule"
+            },
+            {
+              "pos": 2333,
+              "end": 2344,
+              "flags": 0,
+              "text": "HttpModule"
+            },
+            {
+              "pos": 2345,
+              "end": 2357,
+              "flags": 0,
+              "text": "FormsModule"
+            },
+            {
+              "pos": 2358,
+              "end": 2369,
+              "flags": 0,
+              "text": "appRouting"
+            },
+            {
+              "pos": 2370,
+              "end": 2383,
+              "flags": 0,
+              "text": "RouterModule"
+            },
+            {
+              "pos": 2384,
+              "end": 2394,
+              "flags": 0,
+              "text": "TabModule"
+            },
+            {
+              "pos": 2395,
+              "end": 2407,
+              "flags": 0,
+              "text": "InputModule"
+            },
+            {
+              "pos": 2408,
+              "end": 2421,
+              "flags": 0,
+              "text": "ButtonModule"
+            },
+            {
+              "pos": 2422,
+              "end": 2438,
+              "flags": 0,
+              "text": "TypeaheadModule"
+            },
+            {
+              "pos": 2439,
+              "end": 2460,
+              "flags": 0,
+              "text": "InfiniteScrollModule"
+            },
+            {
+              "pos": 2461,
+              "end": 2472,
+              "flags": 0,
+              "text": "CardModule"
+            },
+            {
+              "pos": 2473,
+              "end": 2490,
+              "flags": 0,
+              "text": "BreadcrumbModule"
+            },
+            {
+              "pos": 2491,
+              "end": 2504,
+              "flags": 0,
+              "text": "SelectModule"
+            },
+            {
+              "pos": 2505,
+              "end": 2522,
+              "flags": 0,
+              "text": "GlyphiconsModule"
+            },
+            {
+              "pos": 2523,
+              "end": 2540,
+              "flags": 0,
+              "text": "FileUploadModule"
+            },
+            {
+              "pos": 2541,
+              "end": 2553,
+              "flags": 0,
+              "text": "PanelModule"
+            },
+            {
+              "pos": 2554,
+              "end": 2569,
+              "flags": 0,
+              "text": "CalendarModule"
+            },
+            {
+              "pos": 2570,
+              "end": 2584,
+              "flags": 0,
+              "text": "ActionsModule"
+            },
+            {
+              "pos": 2585,
+              "end": 2605,
+              "flags": 0,
+              "text": "NotificationsModule"
+            },
+            {
+              "pos": 2606,
+              "end": 2621,
+              "flags": 0,
+              "text": "TextareaModule"
+            },
+            {
+              "pos": 2622,
+              "end": 2637,
+              "flags": 0,
+              "text": "CheckboxModule"
+            },
+            {
+              "pos": 2638,
+              "end": 2649,
+              "flags": 0,
+              "text": "MenuModule"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 2651,
+        "end": 2665,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 2651,
+          "end": 2661,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "pos": 2662,
+          "end": 2665,
+          "flags": 0,
+          "kind": 176,
+          "elements": []
+        }
+      },
+      {
+        "pos": 2666,
+        "end": 2702,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 2666,
+          "end": 2676,
+          "flags": 0,
+          "text": "schemas"
+        },
+        "initializer": {
+          "pos": 2677,
+          "end": 2702,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 2679,
+              "end": 2701,
+              "flags": 0,
+              "text": "CUSTOM_ELEMENTS_SCHEMA"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 2703,
+        "end": 2752,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 2703,
+          "end": 2718,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "pos": 2719,
+          "end": 2752,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 2721,
+              "end": 2733,
+              "flags": 0,
+              "text": "AppComponent"
+            },
+            {
+              "pos": 2734,
+              "end": 2751,
+              "flags": 0,
+              "text": "AppTestComponent"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 2753,
+        "end": 2867,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 2753,
+          "end": 2765,
+          "flags": 0,
+          "text": "providers"
+        },
+        "initializer": {
+          "pos": 2766,
+          "end": 2867,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 2768,
+              "end": 2778,
+              "flags": 0,
+              "text": "RouterLink"
+            },
+            {
+              "pos": 2779,
+              "end": 2791,
+              "flags": 0,
+              "text": "FormBuilder"
+            },
+            {
+              "pos": 2792,
+              "end": 2812,
+              "flags": 0,
+              "text": "appRoutingProviders"
+            },
+            {
+              "pos": 2813,
+              "end": 2866,
+              "flags": 0,
+              "kind": 177,
+              "properties": [
+                {
+                  "pos": 2815,
+                  "end": 2837,
+                  "flags": 0,
+                  "kind": 259,
+                  "name": {
+                    "pos": 2815,
+                    "end": 2823,
+                    "flags": 0,
+                    "text": "provide"
+                  },
+                  "initializer": {
+                    "pos": 2824,
+                    "end": 2837,
+                    "flags": 0,
+                    "text": "ErrorHandler"
+                  }
+                },
+                {
+                  "pos": 2838,
+                  "end": 2864,
+                  "flags": 0,
+                  "kind": 259,
+                  "name": {
+                    "pos": 2838,
+                    "end": 2847,
+                    "flags": 0,
+                    "text": "useClass"
+                  },
+                  "initializer": {
+                    "pos": 2848,
+                    "end": 2864,
+                    "flags": 0,
+                    "text": "AppErrorHandler"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "pos": 2868,
+        "end": 2896,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 2868,
+          "end": 2880,
+          "flags": 0,
+          "text": "bootstrap"
+        },
+        "initializer": {
+          "pos": 2881,
+          "end": 2896,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 2883,
+              "end": 2895,
+              "flags": 0,
+              "text": "AppComponent"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "ActionsModule",
+    "file": "components/actions/actions.module.ts",
+    "providers": [],
+    "declarations": [
+      {
+        "name": "ActionsComponent",
+        "file": "components/actions/actions.component.ts",
+        "selector": "av-actions",
+        "providers": [],
+        "templateUrl": [
+          "actions.html"
+        ],
+        "styleUrls": [],
+        "__raw": [
+          {
+            "pos": 378,
+            "end": 401,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 378,
+              "end": 390,
+              "flags": 0,
+              "text": "moduleId"
+            },
+            "initializer": {
+              "pos": 391,
+              "end": 401,
+              "flags": 0,
+              "kind": 178,
+              "expression": {
+                "pos": 391,
+                "end": 398,
+                "flags": 0,
+                "originalKeywordKind": 127,
+                "text": "module"
+              },
+              "name": {
+                "pos": 399,
+                "end": 401,
+                "flags": 0,
+                "text": "id"
+              }
+            }
+          },
+          {
+            "pos": 402,
+            "end": 428,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 402,
+              "end": 414,
+              "flags": 0,
+              "text": "selector"
+            },
+            "initializer": {
+              "pos": 415,
+              "end": 428,
+              "flags": 0,
+              "kind": 9,
+              "text": "av-actions"
+            }
+          },
+          {
+            "pos": 429,
+            "end": 460,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 429,
+              "end": 444,
+              "flags": 0,
+              "text": "templateUrl"
+            },
+            "initializer": {
+              "pos": 445,
+              "end": 460,
+              "flags": 0,
+              "kind": 9,
+              "text": "actions.html"
+            }
+          }
+        ]
+      }
+    ],
+    "imports": [
+      {
+        "name": "CommonModule"
+      },
+      {
+        "name": "FileUploadModule"
+      }
+    ],
+    "exports": [
+      {
+        "name": "ActionsComponent"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "pos": 227,
+        "end": 272,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 227,
+          "end": 238,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "pos": 239,
+          "end": 272,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 241,
+              "end": 253,
+              "flags": 0,
+              "text": "CommonModule"
+            },
+            {
+              "pos": 254,
+              "end": 271,
+              "flags": 0,
+              "text": "FileUploadModule"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 273,
+        "end": 304,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 273,
+          "end": 284,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "pos": 285,
+          "end": 304,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 287,
+              "end": 303,
+              "flags": 0,
+              "text": "ActionsComponent"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 305,
+        "end": 341,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 305,
+          "end": 321,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "pos": 322,
+          "end": 341,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 324,
+              "end": 340,
+              "flags": 0,
+              "text": "ActionsComponent"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "BreadcrumbModule",
+    "file": "components/breadcrumb/breadcrumb.module.ts",
+    "providers": [],
+    "declarations": [
+      {
+        "name": "BreadcrumbComponent",
+        "file": "components/breadcrumb/breadcrumb.component.ts",
+        "selector": "av-breadcrumb",
+        "providers": [],
+        "templateUrl": [
+          "breadcrumb.html"
+        ],
+        "styleUrls": [],
+        "__raw": [
+          {
+            "pos": 395,
+            "end": 418,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 395,
+              "end": 407,
+              "flags": 0,
+              "text": "moduleId"
+            },
+            "initializer": {
+              "pos": 408,
+              "end": 418,
+              "flags": 0,
+              "kind": 178,
+              "expression": {
+                "pos": 408,
+                "end": 415,
+                "flags": 0,
+                "originalKeywordKind": 127,
+                "text": "module"
+              },
+              "name": {
+                "pos": 416,
+                "end": 418,
+                "flags": 0,
+                "text": "id"
+              }
+            }
+          },
+          {
+            "pos": 419,
+            "end": 448,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 419,
+              "end": 431,
+              "flags": 0,
+              "text": "selector"
+            },
+            "initializer": {
+              "pos": 432,
+              "end": 448,
+              "flags": 0,
+              "kind": 9,
+              "text": "av-breadcrumb"
+            }
+          },
+          {
+            "pos": 449,
+            "end": 483,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 449,
+              "end": 464,
+              "flags": 0,
+              "text": "templateUrl"
+            },
+            "initializer": {
+              "pos": 465,
+              "end": 483,
+              "flags": 0,
+              "kind": 9,
+              "text": "breadcrumb.html"
+            }
+          }
+        ]
+      }
+    ],
+    "imports": [
+      {
+        "name": "CommonModule"
+      },
+      {
+        "name": "FileUploadModule"
+      }
+    ],
+    "exports": [
+      {
+        "name": "BreadcrumbComponent"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "pos": 234,
+        "end": 279,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 234,
+          "end": 245,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "pos": 246,
+          "end": 279,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 248,
+              "end": 260,
+              "flags": 0,
+              "text": "CommonModule"
+            },
+            {
+              "pos": 261,
+              "end": 278,
+              "flags": 0,
+              "text": "FileUploadModule"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 280,
+        "end": 314,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 280,
+          "end": 291,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "pos": 292,
+          "end": 314,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 294,
+              "end": 313,
+              "flags": 0,
+              "text": "BreadcrumbComponent"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 315,
+        "end": 354,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 315,
+          "end": 331,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "pos": 332,
+          "end": 354,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 334,
+              "end": 353,
+              "flags": 0,
+              "text": "BreadcrumbComponent"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "ButtonModule",
+    "file": "components/button/button.module.ts",
+    "providers": [],
+    "declarations": [
+      {
+        "name": "ButtonComponent"
+      }
+    ],
+    "imports": [
+      {
+        "name": "CommonModule"
+      }
+    ],
+    "exports": [
+      {
+        "name": "ButtonComponent"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "pos": 243,
+        "end": 270,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 243,
+          "end": 254,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "pos": 255,
+          "end": 270,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 257,
+              "end": 269,
+              "flags": 0,
+              "text": "CommonModule"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 271,
+        "end": 301,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 271,
+          "end": 282,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "pos": 283,
+          "end": 301,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 285,
+              "end": 300,
+              "flags": 0,
+              "text": "ButtonComponent"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 302,
+        "end": 337,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 302,
+          "end": 318,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "pos": 319,
+          "end": 337,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 321,
+              "end": 336,
+              "flags": 0,
+              "text": "ButtonComponent"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "CalendarModule",
+    "file": "components/calendar/calendar.module.ts",
+    "providers": [],
+    "declarations": [
+      {
+        "name": "CalendarComponent",
+        "file": "components/calendar/calendar.component.ts",
+        "selector": "av-calendar",
+        "providers": [
+          {
+            "name": "DomHandler"
+          }
+        ],
+        "templateUrl": [
+          "calendar.html"
+        ],
+        "styleUrls": [],
+        "__raw": [
+          {
+            "pos": 956,
+            "end": 980,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 956,
+              "end": 969,
+              "flags": 0,
+              "text": "moduleId"
+            },
+            "initializer": {
+              "pos": 970,
+              "end": 980,
+              "flags": 0,
+              "kind": 178,
+              "expression": {
+                "pos": 970,
+                "end": 977,
+                "flags": 0,
+                "originalKeywordKind": 127,
+                "text": "module"
+              },
+              "name": {
+                "pos": 978,
+                "end": 980,
+                "flags": 0,
+                "text": "id"
+              }
+            }
+          },
+          {
+            "pos": 981,
+            "end": 1009,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 981,
+              "end": 994,
+              "flags": 0,
+              "text": "selector"
+            },
+            "initializer": {
+              "pos": 995,
+              "end": 1009,
+              "flags": 0,
+              "kind": 9,
+              "text": "av-calendar"
+            }
+          },
+          {
+            "pos": 1010,
+            "end": 1044,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 1010,
+              "end": 1026,
+              "flags": 0,
+              "text": "templateUrl"
+            },
+            "initializer": {
+              "pos": 1027,
+              "end": 1044,
+              "flags": 0,
+              "kind": 9,
+              "text": "calendar.html"
+            }
+          },
+          {
+            "pos": 1045,
+            "end": 1572,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 1045,
+              "end": 1462,
+              "flags": 0,
+              "text": "host"
+            },
+            "initializer": {
+              "pos": 1463,
+              "end": 1572,
+              "flags": 0,
+              "kind": 177,
+              "multiLine": true,
+              "properties": [
+                {
+                  "pos": 1465,
+                  "end": 1516,
+                  "flags": 0,
+                  "kind": 259,
+                  "name": {
+                    "pos": 1465,
+                    "end": 1506,
+                    "flags": 0,
+                    "kind": 9,
+                    "text": "[class.ui-inputwrapper-filled]"
+                  },
+                  "initializer": {
+                    "pos": 1507,
+                    "end": 1516,
+                    "flags": 0,
+                    "kind": 9,
+                    "text": "filled"
+                  }
+                },
+                {
+                  "pos": 1517,
+                  "end": 1566,
+                  "flags": 0,
+                  "kind": 259,
+                  "name": {
+                    "pos": 1517,
+                    "end": 1557,
+                    "flags": 0,
+                    "kind": 9,
+                    "text": "[class.ui-inputwrapper-focus]"
+                  },
+                  "initializer": {
+                    "pos": 1558,
+                    "end": 1566,
+                    "flags": 0,
+                    "kind": 9,
+                    "text": "focus"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "pos": 1573,
+            "end": 1601,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 1573,
+              "end": 1587,
+              "flags": 0,
+              "text": "providers"
+            },
+            "initializer": {
+              "pos": 1588,
+              "end": 1601,
+              "flags": 0,
+              "kind": 176,
+              "elements": [
+                {
+                  "pos": 1590,
+                  "end": 1600,
+                  "flags": 0,
+                  "text": "DomHandler"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "imports": [
+      {
+        "name": "CommonModule"
+      },
+      {
+        "name": "ButtonModule"
+      },
+      {
+        "name": "InputModule"
+      }
+    ],
+    "exports": [
+      {
+        "name": "CalendarComponent"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "pos": 352,
+        "end": 408,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 352,
+          "end": 365,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "pos": 366,
+          "end": 408,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 368,
+              "end": 380,
+              "flags": 0,
+              "text": "CommonModule"
+            },
+            {
+              "pos": 381,
+              "end": 394,
+              "flags": 0,
+              "text": "ButtonModule"
+            },
+            {
+              "pos": 395,
+              "end": 407,
+              "flags": 0,
+              "text": "InputModule"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 409,
+        "end": 443,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 409,
+          "end": 422,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "pos": 423,
+          "end": 443,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 425,
+              "end": 442,
+              "flags": 0,
+              "text": "CalendarComponent"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 444,
+        "end": 483,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 444,
+          "end": 462,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "pos": 463,
+          "end": 483,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 465,
+              "end": 482,
+              "flags": 0,
+              "text": "CalendarComponent"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "CardModule",
+    "file": "components/card/card.module.ts",
+    "providers": [],
+    "declarations": [
+      {
+        "name": "CardComponent",
+        "file": "components/card/card.component.ts",
+        "selector": "av-card",
+        "providers": [],
+        "templateUrl": [
+          "card.html"
+        ],
+        "styleUrls": [],
+        "__raw": [
+          {
+            "pos": 245,
+            "end": 296,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 245,
+              "end": 264,
+              "flags": 0,
+              "text": "changeDetection"
+            },
+            "initializer": {
+              "pos": 265,
+              "end": 296,
+              "flags": 0,
+              "kind": 178,
+              "expression": {
+                "pos": 265,
+                "end": 289,
+                "flags": 0,
+                "text": "ChangeDetectionStrategy"
+              },
+              "name": {
+                "pos": 290,
+                "end": 296,
+                "flags": 0,
+                "text": "OnPush"
+              }
+            }
+          },
+          {
+            "pos": 297,
+            "end": 320,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 297,
+              "end": 309,
+              "flags": 0,
+              "text": "moduleId"
+            },
+            "initializer": {
+              "pos": 310,
+              "end": 320,
+              "flags": 0,
+              "kind": 178,
+              "expression": {
+                "pos": 310,
+                "end": 317,
+                "flags": 0,
+                "originalKeywordKind": 127,
+                "text": "module"
+              },
+              "name": {
+                "pos": 318,
+                "end": 320,
+                "flags": 0,
+                "text": "id"
+              }
+            }
+          },
+          {
+            "pos": 321,
+            "end": 344,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 321,
+              "end": 333,
+              "flags": 0,
+              "text": "selector"
+            },
+            "initializer": {
+              "pos": 334,
+              "end": 344,
+              "flags": 0,
+              "kind": 9,
+              "text": "av-card"
+            }
+          },
+          {
+            "pos": 345,
+            "end": 373,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 345,
+              "end": 360,
+              "flags": 0,
+              "text": "templateUrl"
+            },
+            "initializer": {
+              "pos": 361,
+              "end": 373,
+              "flags": 0,
+              "kind": 9,
+              "text": "card.html"
+            }
+          }
+        ]
+      }
+    ],
+    "imports": [
+      {
+        "name": "CommonModule"
+      },
+      {
+        "name": "ActionsModule"
+      },
+      {
+        "name": "MenuModule"
+      }
+    ],
+    "exports": [
+      {
+        "name": "CardComponent"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "pos": 346,
+        "end": 400,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 346,
+          "end": 357,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "pos": 358,
+          "end": 400,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 360,
+              "end": 372,
+              "flags": 0,
+              "text": "CommonModule"
+            },
+            {
+              "pos": 373,
+              "end": 387,
+              "flags": 0,
+              "text": "ActionsModule"
+            },
+            {
+              "pos": 388,
+              "end": 399,
+              "flags": 0,
+              "text": "MenuModule"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 401,
+        "end": 429,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 401,
+          "end": 412,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "pos": 413,
+          "end": 429,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 415,
+              "end": 428,
+              "flags": 0,
+              "text": "CardComponent"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 430,
+        "end": 463,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 430,
+          "end": 446,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "pos": 447,
+          "end": 463,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 449,
+              "end": 462,
+              "flags": 0,
+              "text": "CardComponent"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "CheckboxModule",
+    "file": "components/checkbox/checkbox.module.ts",
+    "providers": [],
+    "declarations": [
+      {
+        "name": "CheckboxComponent",
+        "file": "components/checkbox/checkbox.component.ts",
+        "selector": "av-checkbox",
+        "providers": [],
+        "templateUrl": [
+          "checkbox.html"
+        ],
+        "styleUrls": [],
+        "__raw": [
+          {
+            "pos": 393,
+            "end": 417,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 393,
+              "end": 407,
+              "flags": 0,
+              "text": "moduleId"
+            },
+            "initializer": {
+              "pos": 408,
+              "end": 417,
+              "flags": 0,
+              "kind": 178,
+              "expression": {
+                "pos": 408,
+                "end": 414,
+                "flags": 0,
+                "originalKeywordKind": 127,
+                "text": "module"
+              },
+              "name": {
+                "pos": 415,
+                "end": 417,
+                "flags": 0,
+                "text": "id"
+              }
+            }
+          },
+          {
+            "pos": 418,
+            "end": 447,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 418,
+              "end": 432,
+              "flags": 0,
+              "text": "selector"
+            },
+            "initializer": {
+              "pos": 433,
+              "end": 447,
+              "flags": 0,
+              "kind": 9,
+              "text": "av-checkbox"
+            }
+          },
+          {
+            "pos": 448,
+            "end": 482,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 448,
+              "end": 465,
+              "flags": 0,
+              "text": "templateUrl"
+            },
+            "initializer": {
+              "pos": 466,
+              "end": 482,
+              "flags": 0,
+              "kind": 9,
+              "text": "checkbox.html"
+            }
+          },
+          {
+            "pos": 483,
+            "end": 502,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 483,
+              "end": 498,
+              "flags": 0,
+              "text": "providers"
+            },
+            "initializer": {
+              "pos": 499,
+              "end": 502,
+              "flags": 0,
+              "kind": 176,
+              "elements": []
+            }
+          }
+        ]
+      }
+    ],
+    "imports": [
+      {
+        "name": "CommonModule"
+      }
+    ],
+    "exports": [
+      {
+        "name": "CheckboxComponent"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "pos": 164,
+        "end": 191,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 164,
+          "end": 175,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "pos": 176,
+          "end": 191,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 178,
+              "end": 190,
+              "flags": 0,
+              "text": "CommonModule"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 192,
+        "end": 224,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 192,
+          "end": 203,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "pos": 204,
+          "end": 224,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 206,
+              "end": 223,
+              "flags": 0,
+              "text": "CheckboxComponent"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 225,
+        "end": 262,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 225,
+          "end": 241,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "pos": 242,
+          "end": 262,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 244,
+              "end": 261,
+              "flags": 0,
+              "text": "CheckboxComponent"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "ChipsModule",
+    "file": "components/chips/chips.module.ts",
+    "providers": [],
+    "declarations": [
+      {
+        "name": "ChipsComponent",
+        "file": "components/chips/chips.component.ts",
+        "selector": "av-chips",
+        "providers": [
+          {
+            "name": "DomHandler"
+          },
+          {
+            "name": "CHIPS_VALUE_ACCESSOR"
+          }
+        ],
+        "templateUrl": [
+          "chips.html"
+        ],
+        "styleUrls": [],
+        "__raw": [
+          {
+            "pos": 587,
+            "end": 611,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 587,
+              "end": 599,
+              "flags": 0,
+              "text": "selector"
+            },
+            "initializer": {
+              "pos": 600,
+              "end": 611,
+              "flags": 0,
+              "kind": 9,
+              "text": "av-chips"
+            }
+          },
+          {
+            "pos": 612,
+            "end": 641,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 612,
+              "end": 627,
+              "flags": 0,
+              "text": "templateUrl"
+            },
+            "initializer": {
+              "pos": 628,
+              "end": 641,
+              "flags": 0,
+              "kind": 9,
+              "text": "chips.html"
+            }
+          },
+          {
+            "pos": 642,
+            "end": 691,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 642,
+              "end": 655,
+              "flags": 0,
+              "text": "providers"
+            },
+            "initializer": {
+              "pos": 656,
+              "end": 691,
+              "flags": 0,
+              "kind": 176,
+              "elements": [
+                {
+                  "pos": 658,
+                  "end": 668,
+                  "flags": 0,
+                  "text": "DomHandler"
+                },
+                {
+                  "pos": 669,
+                  "end": 690,
+                  "flags": 0,
+                  "text": "CHIPS_VALUE_ACCESSOR"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "imports": [
+      {
+        "name": "CommonModule"
+      }
+    ],
+    "exports": [
+      {
+        "name": "ChipsComponent"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "pos": 241,
+        "end": 268,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 241,
+          "end": 252,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "pos": 253,
+          "end": 268,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 255,
+              "end": 267,
+              "flags": 0,
+              "text": "CommonModule"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 269,
+        "end": 298,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 269,
+          "end": 280,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "pos": 281,
+          "end": 298,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 283,
+              "end": 297,
+              "flags": 0,
+              "text": "ChipsComponent"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 299,
+        "end": 333,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 299,
+          "end": 315,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "pos": 316,
+          "end": 333,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 318,
+              "end": 332,
+              "flags": 0,
+              "text": "ChipsComponent"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "DatepickerModule",
+    "file": "components/datepicker/datepicker.module.ts",
+    "providers": [],
+    "declarations": [
+      {
+        "name": "DatepickerComponent",
+        "file": "components/datepicker/datepicker.component.ts",
+        "selector": "av-datepicker",
+        "providers": [],
+        "templateUrl": [
+          "datepicker.html"
+        ],
+        "styleUrls": [],
+        "__raw": [
+          {
+            "pos": 3899,
+            "end": 3927,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 3899,
+              "end": 3910,
+              "flags": 0,
+              "text": "selector"
+            },
+            "initializer": {
+              "pos": 3911,
+              "end": 3927,
+              "flags": 0,
+              "kind": 9,
+              "text": "av-datepicker"
+            }
+          },
+          {
+            "pos": 3928,
+            "end": 3961,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 3928,
+              "end": 3942,
+              "flags": 0,
+              "text": "templateUrl"
+            },
+            "initializer": {
+              "pos": 3943,
+              "end": 3961,
+              "flags": 0,
+              "kind": 9,
+              "text": "datepicker.html"
+            }
+          },
+          {
+            "pos": 3962,
+            "end": 3978,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 3962,
+              "end": 3974,
+              "flags": 0,
+              "text": "providers"
+            },
+            "initializer": {
+              "pos": 3975,
+              "end": 3978,
+              "flags": 0,
+              "kind": 176,
+              "elements": []
+            }
+          }
+        ]
+      }
+    ],
+    "imports": [
+      {
+        "name": "CommonModule"
+      }
+    ],
+    "exports": [
+      {
+        "name": "DatepickerComponent"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "pos": 251,
+        "end": 278,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 251,
+          "end": 262,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "pos": 263,
+          "end": 278,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 265,
+              "end": 277,
+              "flags": 0,
+              "text": "CommonModule"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 279,
+        "end": 313,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 279,
+          "end": 290,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "pos": 291,
+          "end": 313,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 293,
+              "end": 312,
+              "flags": 0,
+              "text": "DatepickerComponent"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 314,
+        "end": 353,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 314,
+          "end": 330,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "pos": 331,
+          "end": 353,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 333,
+              "end": 352,
+              "flags": 0,
+              "text": "DatepickerComponent"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "FileUploadModule",
+    "file": "components/fileupload/fileupload.module.ts",
+    "providers": [],
+    "declarations": [
+      {
+        "name": "FileUploadComponent",
+        "file": "components/fileupload/fileupload.component.ts",
+        "selector": "av-fileUpload",
+        "providers": [],
+        "templateUrl": [
+          "fileupload.html"
+        ],
+        "styleUrls": [],
+        "__raw": [
+          {
+            "pos": 390,
+            "end": 413,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 390,
+              "end": 402,
+              "flags": 0,
+              "text": "moduleId"
+            },
+            "initializer": {
+              "pos": 403,
+              "end": 413,
+              "flags": 0,
+              "kind": 178,
+              "expression": {
+                "pos": 403,
+                "end": 410,
+                "flags": 0,
+                "originalKeywordKind": 127,
+                "text": "module"
+              },
+              "name": {
+                "pos": 411,
+                "end": 413,
+                "flags": 0,
+                "text": "id"
+              }
+            }
+          },
+          {
+            "pos": 414,
+            "end": 443,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 414,
+              "end": 426,
+              "flags": 0,
+              "text": "selector"
+            },
+            "initializer": {
+              "pos": 427,
+              "end": 443,
+              "flags": 0,
+              "kind": 9,
+              "text": "av-fileUpload"
+            }
+          },
+          {
+            "pos": 444,
+            "end": 478,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 444,
+              "end": 459,
+              "flags": 0,
+              "text": "templateUrl"
+            },
+            "initializer": {
+              "pos": 460,
+              "end": 478,
+              "flags": 0,
+              "kind": 9,
+              "text": "fileupload.html"
+            }
+          }
+        ]
+      }
+    ],
+    "imports": [
+      {
+        "name": "CommonModule"
+      },
+      {
+        "name": "ButtonModule"
+      },
+      {
+        "name": "ProgressBarModule"
+      },
+      {
+        "name": "MessagesModule"
+      }
+    ],
+    "exports": [
+      {
+        "name": "FileUploadComponent"
+      },
+      {
+        "name": "ButtonModule"
+      },
+      {
+        "name": "ProgressBarModule"
+      },
+      {
+        "name": "MessagesModule"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "pos": 420,
+        "end": 496,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 420,
+          "end": 431,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "pos": 432,
+          "end": 496,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 434,
+              "end": 446,
+              "flags": 0,
+              "text": "CommonModule"
+            },
+            {
+              "pos": 447,
+              "end": 460,
+              "flags": 0,
+              "text": "ButtonModule"
+            },
+            {
+              "pos": 461,
+              "end": 479,
+              "flags": 0,
+              "text": "ProgressBarModule"
+            },
+            {
+              "pos": 480,
+              "end": 495,
+              "flags": 0,
+              "text": "MessagesModule"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 497,
+        "end": 580,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 497,
+          "end": 508,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "pos": 509,
+          "end": 580,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 511,
+              "end": 530,
+              "flags": 0,
+              "text": "FileUploadComponent"
+            },
+            {
+              "pos": 531,
+              "end": 544,
+              "flags": 0,
+              "text": "ButtonModule"
+            },
+            {
+              "pos": 545,
+              "end": 563,
+              "flags": 0,
+              "text": "ProgressBarModule"
+            },
+            {
+              "pos": 564,
+              "end": 579,
+              "flags": 0,
+              "text": "MessagesModule"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 581,
+        "end": 620,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 581,
+          "end": 597,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "pos": 598,
+          "end": 620,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 600,
+              "end": 619,
+              "flags": 0,
+              "text": "FileUploadComponent"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "GlyphiconsModule",
+    "file": "components/glyphicons/glyphicons.module.ts",
+    "providers": [],
+    "declarations": [
+      {
+        "name": "GlyphiconsComponent",
+        "file": "components/glyphicons/glyphicons.component.ts",
+        "selector": "glyphicons",
+        "providers": [],
+        "templateUrl": [],
+        "styleUrls": [],
+        "__raw": [
+          {
+            "pos": 270,
+            "end": 293,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 270,
+              "end": 282,
+              "flags": 0,
+              "text": "moduleId"
+            },
+            "initializer": {
+              "pos": 283,
+              "end": 293,
+              "flags": 0,
+              "kind": 178,
+              "expression": {
+                "pos": 283,
+                "end": 290,
+                "flags": 0,
+                "originalKeywordKind": 127,
+                "text": "module"
+              },
+              "name": {
+                "pos": 291,
+                "end": 293,
+                "flags": 0,
+                "text": "id"
+              }
+            }
+          },
+          {
+            "pos": 294,
+            "end": 320,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 294,
+              "end": 306,
+              "flags": 0,
+              "text": "selector"
+            },
+            "initializer": {
+              "pos": 307,
+              "end": 320,
+              "flags": 0,
+              "kind": 9,
+              "text": "glyphicons"
+            }
+          },
+          {
+            "pos": 321,
+            "end": 364,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 321,
+              "end": 333,
+              "flags": 0,
+              "text": "template"
+            },
+            "initializer": {
+              "pos": 334,
+              "end": 364,
+              "flags": 0,
+              "text": "GLYPHICONS_COMPONENT_TEMPLATE"
+            }
+          }
+        ]
+      }
+    ],
+    "imports": [
+      {
+        "name": "CommonModule"
+      }
+    ],
+    "exports": [
+      {
+        "name": "GlyphiconsComponent"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "pos": 251,
+        "end": 278,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 251,
+          "end": 262,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "pos": 263,
+          "end": 278,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 265,
+              "end": 277,
+              "flags": 0,
+              "text": "CommonModule"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 279,
+        "end": 313,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 279,
+          "end": 290,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "pos": 291,
+          "end": 313,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 293,
+              "end": 312,
+              "flags": 0,
+              "text": "GlyphiconsComponent"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 314,
+        "end": 353,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 314,
+          "end": 330,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "pos": 331,
+          "end": 353,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 333,
+              "end": 352,
+              "flags": 0,
+              "text": "GlyphiconsComponent"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "InfiniteScrollModule",
+    "file": "components/infinitescroll/infinitescroll.module.ts",
+    "providers": [
+      {
+        "name": "AxisResolverFactory"
+      },
+      {
+        "name": "PositionResolverFactory"
+      },
+      {
+        "name": "ScrollRegister"
+      },
+      {
+        "name": "ScrollResolver"
+      }
+    ],
+    "declarations": [
+      {
+        "name": "InfiniteScrollDirective"
+      }
+    ],
+    "imports": [],
+    "exports": [
+      {
+        "name": "InfiniteScrollDirective"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "pos": 355,
+        "end": 370,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 355,
+          "end": 366,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "pos": 367,
+          "end": 370,
+          "flags": 0,
+          "kind": 176,
+          "elements": []
+        }
+      },
+      {
+        "pos": 371,
+        "end": 414,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 371,
+          "end": 387,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "pos": 388,
+          "end": 414,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 390,
+              "end": 413,
+              "flags": 0,
+              "text": "InfiniteScrollDirective"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 415,
+        "end": 453,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 415,
+          "end": 426,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "pos": 427,
+          "end": 453,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 429,
+              "end": 452,
+              "flags": 0,
+              "text": "InfiniteScrollDirective"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 454,
+        "end": 572,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 454,
+          "end": 467,
+          "flags": 0,
+          "text": "providers"
+        },
+        "initializer": {
+          "pos": 468,
+          "end": 572,
+          "flags": 0,
+          "kind": 176,
+          "multiLine": true,
+          "elements": [
+            {
+              "pos": 470,
+              "end": 495,
+              "flags": 0,
+              "text": "AxisResolverFactory"
+            },
+            {
+              "pos": 496,
+              "end": 525,
+              "flags": 0,
+              "text": "PositionResolverFactory"
+            },
+            {
+              "pos": 526,
+              "end": 546,
+              "flags": 0,
+              "text": "ScrollRegister"
+            },
+            {
+              "pos": 547,
+              "end": 567,
+              "flags": 0,
+              "text": "ScrollResolver"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "InputModule",
+    "file": "components/input/input.module.ts",
+    "providers": [],
+    "declarations": [
+      {
+        "name": "InputComponent",
+        "file": "components/input/input.component.ts",
+        "selector": "av-input",
+        "providers": [
+          {
+            "name": "DomHandler"
+          }
+        ],
+        "templateUrl": [
+          "input.html"
+        ],
+        "styleUrls": [],
+        "__raw": [
+          {
+            "pos": 370,
+            "end": 393,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 370,
+              "end": 382,
+              "flags": 0,
+              "text": "moduleId"
+            },
+            "initializer": {
+              "pos": 383,
+              "end": 393,
+              "flags": 0,
+              "kind": 178,
+              "expression": {
+                "pos": 383,
+                "end": 390,
+                "flags": 0,
+                "originalKeywordKind": 127,
+                "text": "module"
+              },
+              "name": {
+                "pos": 391,
+                "end": 393,
+                "flags": 0,
+                "text": "id"
+              }
+            }
+          },
+          {
+            "pos": 394,
+            "end": 418,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 394,
+              "end": 406,
+              "flags": 0,
+              "text": "selector"
+            },
+            "initializer": {
+              "pos": 407,
+              "end": 418,
+              "flags": 0,
+              "kind": 9,
+              "text": "av-input"
+            }
+          },
+          {
+            "pos": 419,
+            "end": 447,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 419,
+              "end": 434,
+              "flags": 0,
+              "text": "templateUrl"
+            },
+            "initializer": {
+              "pos": 435,
+              "end": 447,
+              "flags": 0,
+              "kind": 9,
+              "text": "input.html"
+            }
+          },
+          {
+            "pos": 448,
+            "end": 475,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 448,
+              "end": 461,
+              "flags": 0,
+              "text": "providers"
+            },
+            "initializer": {
+              "pos": 462,
+              "end": 475,
+              "flags": 0,
+              "kind": 176,
+              "elements": [
+                {
+                  "pos": 464,
+                  "end": 474,
+                  "flags": 0,
+                  "text": "DomHandler"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "imports": [
+      {
+        "name": "CommonModule"
+      },
+      {
+        "name": "FormsModule"
+      }
+    ],
+    "exports": [
+      {
+        "name": "InputComponent"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "pos": 247,
+        "end": 287,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 247,
+          "end": 258,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "pos": 259,
+          "end": 287,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 261,
+              "end": 273,
+              "flags": 0,
+              "text": "CommonModule"
+            },
+            {
+              "pos": 274,
+              "end": 286,
+              "flags": 0,
+              "text": "FormsModule"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 288,
+        "end": 317,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 288,
+          "end": 299,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "pos": 300,
+          "end": 317,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 302,
+              "end": 316,
+              "flags": 0,
+              "text": "InputComponent"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 318,
+        "end": 352,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 318,
+          "end": 334,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "pos": 335,
+          "end": 352,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 337,
+              "end": 351,
+              "flags": 0,
+              "text": "InputComponent"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "MenuModule",
+    "file": "components/menu/menu.module.ts",
+    "providers": [],
+    "declarations": [
+      {
+        "name": "MenuComponent",
+        "file": "components/menu/menu.component.ts",
+        "selector": "av-menu",
+        "providers": [
+          {
+            "name": "DomHandler"
+          }
+        ],
+        "templateUrl": [
+          "menu.html"
+        ],
+        "styleUrls": [],
+        "__raw": [
+          {
+            "pos": 388,
+            "end": 411,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 388,
+              "end": 400,
+              "flags": 0,
+              "text": "moduleId"
+            },
+            "initializer": {
+              "pos": 401,
+              "end": 411,
+              "flags": 0,
+              "kind": 178,
+              "expression": {
+                "pos": 401,
+                "end": 408,
+                "flags": 0,
+                "originalKeywordKind": 127,
+                "text": "module"
+              },
+              "name": {
+                "pos": 409,
+                "end": 411,
+                "flags": 0,
+                "text": "id"
+              }
+            }
+          },
+          {
+            "pos": 412,
+            "end": 435,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 412,
+              "end": 424,
+              "flags": 0,
+              "text": "selector"
+            },
+            "initializer": {
+              "pos": 425,
+              "end": 435,
+              "flags": 0,
+              "kind": 9,
+              "text": "av-menu"
+            }
+          },
+          {
+            "pos": 436,
+            "end": 464,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 436,
+              "end": 451,
+              "flags": 0,
+              "text": "templateUrl"
+            },
+            "initializer": {
+              "pos": 452,
+              "end": 464,
+              "flags": 0,
+              "kind": 9,
+              "text": "menu.html"
+            }
+          },
+          {
+            "pos": 465,
+            "end": 492,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 465,
+              "end": 478,
+              "flags": 0,
+              "text": "providers"
+            },
+            "initializer": {
+              "pos": 479,
+              "end": 492,
+              "flags": 0,
+              "kind": 176,
+              "elements": [
+                {
+                  "pos": 481,
+                  "end": 491,
+                  "flags": 0,
+                  "text": "DomHandler"
+                }
+              ]
+            }
+          },
+          {
+            "pos": 493,
+            "end": 544,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 493,
+              "end": 501,
+              "flags": 0,
+              "text": "host"
+            },
+            "initializer": {
+              "pos": 502,
+              "end": 544,
+              "flags": 0,
+              "kind": 177,
+              "properties": [
+                {
+                  "pos": 504,
+                  "end": 542,
+                  "flags": 0,
+                  "kind": 259,
+                  "name": {
+                    "pos": 504,
+                    "end": 522,
+                    "flags": 0,
+                    "kind": 9,
+                    "text": "(window:resize)"
+                  },
+                  "initializer": {
+                    "pos": 523,
+                    "end": 542,
+                    "flags": 0,
+                    "kind": 9,
+                    "text": "onResize($event)"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "imports": [
+      {
+        "name": "CommonModule"
+      }
+    ],
+    "exports": [
+      {
+        "name": "MenuComponent"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "pos": 158,
+        "end": 185,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 158,
+          "end": 169,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "pos": 170,
+          "end": 185,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 172,
+              "end": 184,
+              "flags": 0,
+              "text": "CommonModule"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 186,
+        "end": 214,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 186,
+          "end": 197,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "pos": 198,
+          "end": 214,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 200,
+              "end": 213,
+              "flags": 0,
+              "text": "MenuComponent"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 215,
+        "end": 248,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 215,
+          "end": 231,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "pos": 232,
+          "end": 248,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 234,
+              "end": 247,
+              "flags": 0,
+              "text": "MenuComponent"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "MessagesModule",
+    "file": "components/messages/messages.module.ts",
+    "providers": [],
+    "declarations": [
+      {
+        "name": "MessagesComponent",
+        "file": "components/messages/messages.component.ts",
+        "selector": "av-messages",
+        "providers": [],
+        "templateUrl": [
+          "messages.html"
+        ],
+        "styleUrls": [],
+        "__raw": [
+          {
+            "pos": 248,
+            "end": 271,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 248,
+              "end": 260,
+              "flags": 0,
+              "text": "moduleId"
+            },
+            "initializer": {
+              "pos": 261,
+              "end": 271,
+              "flags": 0,
+              "kind": 178,
+              "expression": {
+                "pos": 261,
+                "end": 268,
+                "flags": 0,
+                "originalKeywordKind": 127,
+                "text": "module"
+              },
+              "name": {
+                "pos": 269,
+                "end": 271,
+                "flags": 0,
+                "text": "id"
+              }
+            }
+          },
+          {
+            "pos": 272,
+            "end": 299,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 272,
+              "end": 284,
+              "flags": 0,
+              "text": "selector"
+            },
+            "initializer": {
+              "pos": 285,
+              "end": 299,
+              "flags": 0,
+              "kind": 9,
+              "text": "av-messages"
+            }
+          },
+          {
+            "pos": 300,
+            "end": 332,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 300,
+              "end": 315,
+              "flags": 0,
+              "text": "templateUrl"
+            },
+            "initializer": {
+              "pos": 316,
+              "end": 332,
+              "flags": 0,
+              "kind": 9,
+              "text": "messages.html"
+            }
+          }
+        ]
+      }
+    ],
+    "imports": [
+      {
+        "name": "CommonModule"
+      }
+    ],
+    "exports": [
+      {
+        "name": "MessagesComponent"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "pos": 166,
+        "end": 193,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 166,
+          "end": 177,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "pos": 178,
+          "end": 193,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 180,
+              "end": 192,
+              "flags": 0,
+              "text": "CommonModule"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 194,
+        "end": 226,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 194,
+          "end": 205,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "pos": 206,
+          "end": 226,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 208,
+              "end": 225,
+              "flags": 0,
+              "text": "MessagesComponent"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 227,
+        "end": 264,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 227,
+          "end": 243,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "pos": 244,
+          "end": 264,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 246,
+              "end": 263,
+              "flags": 0,
+              "text": "MessagesComponent"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "NotificationsModule",
+    "file": "components/notifications/notifications.module.ts",
+    "providers": [],
+    "declarations": [
+      {
+        "name": "NotificationsComponent",
+        "file": "components/notifications/notifications.component.ts",
+        "selector": "av-notifications",
+        "providers": [
+          {
+            "name": "DomHandler"
+          }
+        ],
+        "templateUrl": [
+          "notifications.html"
+        ],
+        "styleUrls": [],
+        "__raw": [
+          {
+            "pos": 272,
+            "end": 295,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 272,
+              "end": 284,
+              "flags": 0,
+              "text": "moduleId"
+            },
+            "initializer": {
+              "pos": 285,
+              "end": 295,
+              "flags": 0,
+              "kind": 178,
+              "expression": {
+                "pos": 285,
+                "end": 292,
+                "flags": 0,
+                "originalKeywordKind": 127,
+                "text": "module"
+              },
+              "name": {
+                "pos": 293,
+                "end": 295,
+                "flags": 0,
+                "text": "id"
+              }
+            }
+          },
+          {
+            "pos": 296,
+            "end": 328,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 296,
+              "end": 308,
+              "flags": 0,
+              "text": "selector"
+            },
+            "initializer": {
+              "pos": 309,
+              "end": 328,
+              "flags": 0,
+              "kind": 9,
+              "text": "av-notifications"
+            }
+          },
+          {
+            "pos": 329,
+            "end": 366,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 329,
+              "end": 344,
+              "flags": 0,
+              "text": "templateUrl"
+            },
+            "initializer": {
+              "pos": 345,
+              "end": 366,
+              "flags": 0,
+              "kind": 9,
+              "text": "notifications.html"
+            }
+          },
+          {
+            "pos": 367,
+            "end": 394,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 367,
+              "end": 380,
+              "flags": 0,
+              "text": "providers"
+            },
+            "initializer": {
+              "pos": 381,
+              "end": 394,
+              "flags": 0,
+              "kind": 176,
+              "elements": [
+                {
+                  "pos": 383,
+                  "end": 393,
+                  "flags": 0,
+                  "text": "DomHandler"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "imports": [
+      {
+        "name": "CommonModule"
+      }
+    ],
+    "exports": [
+      {
+        "name": "NotificationsComponent"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "pos": 176,
+        "end": 203,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 176,
+          "end": 187,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "pos": 188,
+          "end": 203,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 190,
+              "end": 202,
+              "flags": 0,
+              "text": "CommonModule"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 204,
+        "end": 241,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 204,
+          "end": 215,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "pos": 216,
+          "end": 241,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 218,
+              "end": 240,
+              "flags": 0,
+              "text": "NotificationsComponent"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 242,
+        "end": 284,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 242,
+          "end": 258,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "pos": 259,
+          "end": 284,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 261,
+              "end": 283,
+              "flags": 0,
+              "text": "NotificationsComponent"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "PanelModule",
+    "file": "components/panel/panel.module.ts",
+    "providers": [],
+    "declarations": [
+      {
+        "name": "PanelComponent",
+        "file": "components/panel/panel.component.ts",
+        "selector": "av-panel",
+        "providers": [
+          {
+            "name": "DomHandler"
+          }
+        ],
+        "templateUrl": [
+          "panel.html"
+        ],
+        "styleUrls": [],
+        "__raw": [
+          {
+            "pos": 258,
+            "end": 281,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 258,
+              "end": 270,
+              "flags": 0,
+              "text": "moduleId"
+            },
+            "initializer": {
+              "pos": 271,
+              "end": 281,
+              "flags": 0,
+              "kind": 178,
+              "expression": {
+                "pos": 271,
+                "end": 278,
+                "flags": 0,
+                "originalKeywordKind": 127,
+                "text": "module"
+              },
+              "name": {
+                "pos": 279,
+                "end": 281,
+                "flags": 0,
+                "text": "id"
+              }
+            }
+          },
+          {
+            "pos": 282,
+            "end": 306,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 282,
+              "end": 294,
+              "flags": 0,
+              "text": "selector"
+            },
+            "initializer": {
+              "pos": 295,
+              "end": 306,
+              "flags": 0,
+              "kind": 9,
+              "text": "av-panel"
+            }
+          },
+          {
+            "pos": 307,
+            "end": 336,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 307,
+              "end": 322,
+              "flags": 0,
+              "text": "templateUrl"
+            },
+            "initializer": {
+              "pos": 323,
+              "end": 336,
+              "flags": 0,
+              "kind": 9,
+              "text": "panel.html"
+            }
+          },
+          {
+            "pos": 337,
+            "end": 364,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 337,
+              "end": 350,
+              "flags": 0,
+              "text": "providers"
+            },
+            "initializer": {
+              "pos": 351,
+              "end": 364,
+              "flags": 0,
+              "kind": 176,
+              "elements": [
+                {
+                  "pos": 353,
+                  "end": 363,
+                  "flags": 0,
+                  "text": "DomHandler"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "imports": [
+      {
+        "name": "CommonModule"
+      }
+    ],
+    "exports": [
+      {
+        "name": "PanelComponent"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "pos": 156,
+        "end": 183,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 156,
+          "end": 167,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "pos": 168,
+          "end": 183,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 170,
+              "end": 182,
+              "flags": 0,
+              "text": "CommonModule"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 184,
+        "end": 213,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 184,
+          "end": 195,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "pos": 196,
+          "end": 213,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 198,
+              "end": 212,
+              "flags": 0,
+              "text": "PanelComponent"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 214,
+        "end": 248,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 214,
+          "end": 230,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "pos": 231,
+          "end": 248,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 233,
+              "end": 247,
+              "flags": 0,
+              "text": "PanelComponent"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "PasswordModule",
+    "file": "components/password/password.module.ts",
+    "providers": [],
+    "declarations": [
+      {
+        "name": "PasswordDirective"
+      }
+    ],
+    "imports": [
+      {
+        "name": "CommonModule"
+      }
+    ],
+    "exports": [
+      {
+        "name": "PasswordDirective"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "pos": 166,
+        "end": 193,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 166,
+          "end": 177,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "pos": 178,
+          "end": 193,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 180,
+              "end": 192,
+              "flags": 0,
+              "text": "CommonModule"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 194,
+        "end": 226,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 194,
+          "end": 205,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "pos": 206,
+          "end": 226,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 208,
+              "end": 225,
+              "flags": 0,
+              "text": "PasswordDirective"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 227,
+        "end": 264,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 227,
+          "end": 243,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "pos": 244,
+          "end": 264,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 246,
+              "end": 263,
+              "flags": 0,
+              "text": "PasswordDirective"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "PickListModule",
+    "file": "components/picklist/picklist.module.ts",
+    "providers": [],
+    "declarations": [
+      {
+        "name": "PickListComponent",
+        "file": "components/picklist/picklist.component.ts",
+        "selector": "av-pickList",
+        "providers": [
+          {
+            "name": "DomHandler"
+          }
+        ],
+        "templateUrl": [
+          "picklist.html"
+        ],
+        "styleUrls": [],
+        "__raw": [
+          {
+            "pos": 393,
+            "end": 416,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 393,
+              "end": 405,
+              "flags": 0,
+              "text": "moduleId"
+            },
+            "initializer": {
+              "pos": 406,
+              "end": 416,
+              "flags": 0,
+              "kind": 178,
+              "expression": {
+                "pos": 406,
+                "end": 413,
+                "flags": 0,
+                "originalKeywordKind": 127,
+                "text": "module"
+              },
+              "name": {
+                "pos": 414,
+                "end": 416,
+                "flags": 0,
+                "text": "id"
+              }
+            }
+          },
+          {
+            "pos": 417,
+            "end": 444,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 417,
+              "end": 429,
+              "flags": 0,
+              "text": "selector"
+            },
+            "initializer": {
+              "pos": 430,
+              "end": 444,
+              "flags": 0,
+              "kind": 9,
+              "text": "av-pickList"
+            }
+          },
+          {
+            "pos": 445,
+            "end": 477,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 445,
+              "end": 460,
+              "flags": 0,
+              "text": "templateUrl"
+            },
+            "initializer": {
+              "pos": 461,
+              "end": 477,
+              "flags": 0,
+              "kind": 9,
+              "text": "picklist.html"
+            }
+          },
+          {
+            "pos": 478,
+            "end": 505,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 478,
+              "end": 491,
+              "flags": 0,
+              "text": "providers"
+            },
+            "initializer": {
+              "pos": 492,
+              "end": 505,
+              "flags": 0,
+              "kind": 176,
+              "elements": [
+                {
+                  "pos": 494,
+                  "end": 504,
+                  "flags": 0,
+                  "text": "DomHandler"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "imports": [
+      {
+        "name": "CommonModule"
+      }
+    ],
+    "exports": [
+      {
+        "name": "PickListComponent"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "pos": 166,
+        "end": 193,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 166,
+          "end": 177,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "pos": 178,
+          "end": 193,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 180,
+              "end": 192,
+              "flags": 0,
+              "text": "CommonModule"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 194,
+        "end": 226,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 194,
+          "end": 205,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "pos": 206,
+          "end": 226,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 208,
+              "end": 225,
+              "flags": 0,
+              "text": "PickListComponent"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 227,
+        "end": 264,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 227,
+          "end": 243,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "pos": 244,
+          "end": 264,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 246,
+              "end": 263,
+              "flags": 0,
+              "text": "PickListComponent"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "ProgressBarModule",
+    "file": "components/progressbar/progressbar.module.ts",
+    "providers": [],
+    "declarations": [
+      {
+        "name": "ProgressBarComponent",
+        "file": "components/progressbar/progressbar.component.ts",
+        "selector": "av-progressBar",
+        "providers": [],
+        "templateUrl": [
+          "progressbar.html"
+        ],
+        "styleUrls": [],
+        "__raw": [
+          {
+            "pos": 124,
+            "end": 147,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 124,
+              "end": 136,
+              "flags": 0,
+              "text": "moduleId"
+            },
+            "initializer": {
+              "pos": 137,
+              "end": 147,
+              "flags": 0,
+              "kind": 178,
+              "expression": {
+                "pos": 137,
+                "end": 144,
+                "flags": 0,
+                "originalKeywordKind": 127,
+                "text": "module"
+              },
+              "name": {
+                "pos": 145,
+                "end": 147,
+                "flags": 0,
+                "text": "id"
+              }
+            }
+          },
+          {
+            "pos": 148,
+            "end": 178,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 148,
+              "end": 160,
+              "flags": 0,
+              "text": "selector"
+            },
+            "initializer": {
+              "pos": 161,
+              "end": 178,
+              "flags": 0,
+              "kind": 9,
+              "text": "av-progressBar"
+            }
+          },
+          {
+            "pos": 179,
+            "end": 214,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 179,
+              "end": 194,
+              "flags": 0,
+              "text": "templateUrl"
+            },
+            "initializer": {
+              "pos": 195,
+              "end": 214,
+              "flags": 0,
+              "kind": 9,
+              "text": "progressbar.html"
+            }
+          }
+        ]
+      }
+    ],
+    "imports": [
+      {
+        "name": "CommonModule"
+      }
+    ],
+    "exports": [
+      {
+        "name": "ProgressBarComponent"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "pos": 172,
+        "end": 199,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 172,
+          "end": 183,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "pos": 184,
+          "end": 199,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 186,
+              "end": 198,
+              "flags": 0,
+              "text": "CommonModule"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 200,
+        "end": 235,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 200,
+          "end": 211,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "pos": 212,
+          "end": 235,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 214,
+              "end": 234,
+              "flags": 0,
+              "text": "ProgressBarComponent"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 236,
+        "end": 276,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 236,
+          "end": 252,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "pos": 253,
+          "end": 276,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 255,
+              "end": 275,
+              "flags": 0,
+              "text": "ProgressBarComponent"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "RatingModule",
+    "file": "components/rating/rating.module.ts",
+    "providers": [],
+    "declarations": [
+      {
+        "name": "RatingComponent",
+        "file": "components/rating/rating.component.ts",
+        "selector": "av-rating",
+        "providers": [],
+        "templateUrl": [],
+        "styleUrls": [],
+        "__raw": [
+          {
+            "pos": 89,
+            "end": 114,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 89,
+              "end": 101,
+              "flags": 0,
+              "text": "selector"
+            },
+            "initializer": {
+              "pos": 102,
+              "end": 114,
+              "flags": 0,
+              "kind": 9,
+              "text": "av-rating"
+            }
+          },
+          {
+            "pos": 115,
+            "end": 142,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 115,
+              "end": 127,
+              "flags": 0,
+              "text": "template"
+            },
+            "initializer": {
+              "pos": 128,
+              "end": 142,
+              "flags": 0,
+              "kind": 9,
+              "text": "rating.html"
+            }
+          }
+        ]
+      }
+    ],
+    "imports": [
+      {
+        "name": "CommonModule"
+      }
+    ],
+    "exports": [
+      {
+        "name": "RatingComponent"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "pos": 243,
+        "end": 270,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 243,
+          "end": 254,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "pos": 255,
+          "end": 270,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 257,
+              "end": 269,
+              "flags": 0,
+              "text": "CommonModule"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 271,
+        "end": 301,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 271,
+          "end": 282,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "pos": 283,
+          "end": 301,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 285,
+              "end": 300,
+              "flags": 0,
+              "text": "RatingComponent"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 302,
+        "end": 337,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 302,
+          "end": 318,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "pos": 319,
+          "end": 337,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 321,
+              "end": 336,
+              "flags": 0,
+              "text": "RatingComponent"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "SelectModule",
+    "file": "components/select/select.module.ts",
+    "providers": [],
+    "declarations": [
+      {
+        "name": "SelectComponent",
+        "file": "components/select/select.component.ts",
+        "selector": "av-dropdown",
+        "providers": [
+          {
+            "name": "MULTISELECT_VALUE_ACCESSOR"
+          }
+        ],
+        "templateUrl": [
+          "select.html"
+        ],
+        "styleUrls": [],
+        "__raw": [
+          {
+            "pos": 784,
+            "end": 807,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 784,
+              "end": 796,
+              "flags": 0,
+              "text": "moduleId"
+            },
+            "initializer": {
+              "pos": 797,
+              "end": 807,
+              "flags": 0,
+              "kind": 178,
+              "expression": {
+                "pos": 797,
+                "end": 804,
+                "flags": 0,
+                "originalKeywordKind": 127,
+                "text": "module"
+              },
+              "name": {
+                "pos": 805,
+                "end": 807,
+                "flags": 0,
+                "text": "id"
+              }
+            }
+          },
+          {
+            "pos": 808,
+            "end": 835,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 808,
+              "end": 820,
+              "flags": 0,
+              "text": "selector"
+            },
+            "initializer": {
+              "pos": 821,
+              "end": 835,
+              "flags": 0,
+              "kind": 9,
+              "text": "av-dropdown"
+            }
+          },
+          {
+            "pos": 836,
+            "end": 866,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 836,
+              "end": 851,
+              "flags": 0,
+              "text": "templateUrl"
+            },
+            "initializer": {
+              "pos": 852,
+              "end": 866,
+              "flags": 0,
+              "kind": 9,
+              "text": "select.html"
+            }
+          },
+          {
+            "pos": 867,
+            "end": 910,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 867,
+              "end": 880,
+              "flags": 0,
+              "text": "providers"
+            },
+            "initializer": {
+              "pos": 881,
+              "end": 910,
+              "flags": 0,
+              "kind": 176,
+              "elements": [
+                {
+                  "pos": 883,
+                  "end": 909,
+                  "flags": 0,
+                  "text": "MULTISELECT_VALUE_ACCESSOR"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "SelectFilter"
+      }
+    ],
+    "imports": [
+      {
+        "name": "CommonModule"
+      },
+      {
+        "name": "FormsModule"
+      }
+    ],
+    "exports": [
+      {
+        "name": "SelectComponent"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "pos": 350,
+        "end": 390,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 350,
+          "end": 361,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "pos": 362,
+          "end": 390,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 364,
+              "end": 376,
+              "flags": 0,
+              "text": "CommonModule"
+            },
+            {
+              "pos": 377,
+              "end": 389,
+              "flags": 0,
+              "text": "FormsModule"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 391,
+        "end": 421,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 391,
+          "end": 402,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "pos": 403,
+          "end": 421,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 405,
+              "end": 420,
+              "flags": 0,
+              "text": "SelectComponent"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 422,
+        "end": 471,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 422,
+          "end": 438,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "pos": 439,
+          "end": 471,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 441,
+              "end": 456,
+              "flags": 0,
+              "text": "SelectComponent"
+            },
+            {
+              "pos": 457,
+              "end": 470,
+              "flags": 0,
+              "text": "SelectFilter"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "TabModule",
+    "file": "components/tab/tab.module.ts",
+    "providers": [],
+    "declarations": [
+      {
+        "name": "TabComponent",
+        "file": "components/tab/tab.component.ts",
+        "selector": "av-tabMenu",
+        "providers": [
+          {
+            "name": "DomHandler"
+          }
+        ],
+        "templateUrl": [
+          "tab.html"
+        ],
+        "styleUrls": [],
+        "__raw": [
+          {
+            "pos": 334,
+            "end": 359,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 334,
+              "end": 348,
+              "flags": 0,
+              "text": "moduleId"
+            },
+            "initializer": {
+              "pos": 349,
+              "end": 359,
+              "flags": 0,
+              "kind": 178,
+              "expression": {
+                "pos": 349,
+                "end": 356,
+                "flags": 0,
+                "originalKeywordKind": 127,
+                "text": "module"
+              },
+              "name": {
+                "pos": 357,
+                "end": 359,
+                "flags": 0,
+                "text": "id"
+              }
+            }
+          },
+          {
+            "pos": 360,
+            "end": 388,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 360,
+              "end": 374,
+              "flags": 0,
+              "text": "selector"
+            },
+            "initializer": {
+              "pos": 375,
+              "end": 388,
+              "flags": 0,
+              "kind": 9,
+              "text": "av-tabMenu"
+            }
+          },
+          {
+            "pos": 389,
+            "end": 418,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 389,
+              "end": 406,
+              "flags": 0,
+              "text": "templateUrl"
+            },
+            "initializer": {
+              "pos": 407,
+              "end": 418,
+              "flags": 0,
+              "kind": 9,
+              "text": "tab.html"
+            }
+          },
+          {
+            "pos": 419,
+            "end": 448,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 419,
+              "end": 434,
+              "flags": 0,
+              "text": "providers"
+            },
+            "initializer": {
+              "pos": 435,
+              "end": 448,
+              "flags": 0,
+              "kind": 176,
+              "elements": [
+                {
+                  "pos": 437,
+                  "end": 447,
+                  "flags": 0,
+                  "text": "DomHandler"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "imports": [
+      {
+        "name": "CommonModule"
+      },
+      {
+        "name": "FormsModule"
+      }
+    ],
+    "exports": [
+      {
+        "name": "TabComponent"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "pos": 293,
+        "end": 333,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 293,
+          "end": 304,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "pos": 305,
+          "end": 333,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 307,
+              "end": 319,
+              "flags": 0,
+              "text": "CommonModule"
+            },
+            {
+              "pos": 320,
+              "end": 332,
+              "flags": 0,
+              "text": "FormsModule"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 334,
+        "end": 361,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 334,
+          "end": 345,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "pos": 346,
+          "end": 361,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 348,
+              "end": 360,
+              "flags": 0,
+              "text": "TabComponent"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 362,
+        "end": 394,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 362,
+          "end": 378,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "pos": 379,
+          "end": 394,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 381,
+              "end": 393,
+              "flags": 0,
+              "text": "TabComponent"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "TableModule",
+    "file": "components/table/table.module.ts",
+    "providers": [],
+    "declarations": [
+      {
+        "name": "TableComponent",
+        "file": "components/table/table.component.ts",
+        "selector": "av-table",
+        "providers": [],
+        "templateUrl": [
+          "table.html"
+        ],
+        "styleUrls": [],
+        "__raw": [
+          {
+            "pos": 179,
+            "end": 202,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 179,
+              "end": 191,
+              "flags": 0,
+              "text": "moduleId"
+            },
+            "initializer": {
+              "pos": 192,
+              "end": 202,
+              "flags": 0,
+              "kind": 178,
+              "expression": {
+                "pos": 192,
+                "end": 199,
+                "flags": 0,
+                "originalKeywordKind": 127,
+                "text": "module"
+              },
+              "name": {
+                "pos": 200,
+                "end": 202,
+                "flags": 0,
+                "text": "id"
+              }
+            }
+          },
+          {
+            "pos": 203,
+            "end": 227,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 203,
+              "end": 215,
+              "flags": 0,
+              "text": "selector"
+            },
+            "initializer": {
+              "pos": 216,
+              "end": 227,
+              "flags": 0,
+              "kind": 9,
+              "text": "av-table"
+            }
+          },
+          {
+            "pos": 228,
+            "end": 257,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 228,
+              "end": 243,
+              "flags": 0,
+              "text": "templateUrl"
+            },
+            "initializer": {
+              "pos": 244,
+              "end": 257,
+              "flags": 0,
+              "kind": 9,
+              "text": "table.html"
+            }
+          }
+        ]
+      }
+    ],
+    "imports": [
+      {
+        "name": "CommonModule"
+      },
+      {
+        "name": "FormsModule"
+      }
+    ],
+    "exports": [
+      {
+        "name": "TableComponent"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "pos": 301,
+        "end": 341,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 301,
+          "end": 312,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "pos": 313,
+          "end": 341,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 315,
+              "end": 327,
+              "flags": 0,
+              "text": "CommonModule"
+            },
+            {
+              "pos": 328,
+              "end": 340,
+              "flags": 0,
+              "text": "FormsModule"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 342,
+        "end": 371,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 342,
+          "end": 353,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "pos": 354,
+          "end": 371,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 356,
+              "end": 370,
+              "flags": 0,
+              "text": "TableComponent"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 372,
+        "end": 406,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 372,
+          "end": 388,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "pos": 389,
+          "end": 406,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 391,
+              "end": 405,
+              "flags": 0,
+              "text": "TableComponent"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "TextareaModule",
+    "file": "components/textarea/textarea.module.ts",
+    "providers": [],
+    "declarations": [
+      {
+        "name": "TextareaComponent"
+      }
+    ],
+    "imports": [
+      {
+        "name": "CommonModule"
+      }
+    ],
+    "exports": [
+      {
+        "name": "TextareaComponent"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "pos": 164,
+        "end": 191,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 164,
+          "end": 175,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "pos": 176,
+          "end": 191,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 178,
+              "end": 190,
+              "flags": 0,
+              "text": "CommonModule"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 192,
+        "end": 224,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 192,
+          "end": 203,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "pos": 204,
+          "end": 224,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 206,
+              "end": 223,
+              "flags": 0,
+              "text": "TextareaComponent"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 225,
+        "end": 262,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 225,
+          "end": 241,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "pos": 242,
+          "end": 262,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 244,
+              "end": 261,
+              "flags": 0,
+              "text": "TextareaComponent"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "ToolbarModule",
+    "file": "components/toolbar/toolbar.module.ts",
+    "providers": [],
+    "declarations": [
+      {
+        "name": "ToolbarComponent",
+        "file": "components/toolbar/toolbar.component.ts",
+        "selector": "av-toolbar",
+        "providers": [],
+        "templateUrl": [
+          "toolbar.html"
+        ],
+        "styleUrls": [],
+        "__raw": [
+          {
+            "pos": 114,
+            "end": 137,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 114,
+              "end": 126,
+              "flags": 0,
+              "text": "moduleId"
+            },
+            "initializer": {
+              "pos": 127,
+              "end": 137,
+              "flags": 0,
+              "kind": 178,
+              "expression": {
+                "pos": 127,
+                "end": 134,
+                "flags": 0,
+                "originalKeywordKind": 127,
+                "text": "module"
+              },
+              "name": {
+                "pos": 135,
+                "end": 137,
+                "flags": 0,
+                "text": "id"
+              }
+            }
+          },
+          {
+            "pos": 138,
+            "end": 164,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 138,
+              "end": 150,
+              "flags": 0,
+              "text": "selector"
+            },
+            "initializer": {
+              "pos": 151,
+              "end": 164,
+              "flags": 0,
+              "kind": 9,
+              "text": "av-toolbar"
+            }
+          },
+          {
+            "pos": 165,
+            "end": 196,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 165,
+              "end": 180,
+              "flags": 0,
+              "text": "templateUrl"
+            },
+            "initializer": {
+              "pos": 181,
+              "end": 196,
+              "flags": 0,
+              "kind": 9,
+              "text": "toolbar.html"
+            }
+          }
+        ]
+      }
+    ],
+    "imports": [
+      {
+        "name": "CommonModule"
+      }
+    ],
+    "exports": [
+      {
+        "name": "ToolbarComponent"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "pos": 164,
+        "end": 191,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 164,
+          "end": 175,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "pos": 176,
+          "end": 191,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 178,
+              "end": 190,
+              "flags": 0,
+              "text": "CommonModule"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 192,
+        "end": 223,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 192,
+          "end": 203,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "pos": 204,
+          "end": 223,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 206,
+              "end": 222,
+              "flags": 0,
+              "text": "ToolbarComponent"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 224,
+        "end": 260,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 224,
+          "end": 240,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "pos": 241,
+          "end": 260,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 243,
+              "end": 259,
+              "flags": 0,
+              "text": "ToolbarComponent"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "TooltipModule",
+    "file": "components/tooltip/tooltip.module.ts",
+    "providers": [],
+    "declarations": [
+      {
+        "name": "TooltipDirective"
+      }
+    ],
+    "imports": [
+      {
+        "name": "CommonModule"
+      }
+    ],
+    "exports": [
+      {
+        "name": "TooltipDirective"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "pos": 162,
+        "end": 189,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 162,
+          "end": 173,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "pos": 174,
+          "end": 189,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 176,
+              "end": 188,
+              "flags": 0,
+              "text": "CommonModule"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 190,
+        "end": 221,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 190,
+          "end": 201,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "pos": 202,
+          "end": 221,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 204,
+              "end": 220,
+              "flags": 0,
+              "text": "TooltipDirective"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 222,
+        "end": 258,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 222,
+          "end": 238,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "pos": 239,
+          "end": 258,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 241,
+              "end": 257,
+              "flags": 0,
+              "text": "TooltipDirective"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "TypeaheadModule",
+    "file": "components/typeahead/typeahead.module.ts",
+    "providers": [],
+    "declarations": [
+      {
+        "name": "TypeaheadComponent",
+        "file": "components/typeahead/typeahead.component.ts",
+        "selector": "av-typeahead",
+        "providers": [],
+        "templateUrl": [
+          "typeahead.html"
+        ],
+        "styleUrls": [],
+        "__raw": [
+          {
+            "pos": 486,
+            "end": 509,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 486,
+              "end": 498,
+              "flags": 0,
+              "text": "moduleId"
+            },
+            "initializer": {
+              "pos": 499,
+              "end": 509,
+              "flags": 0,
+              "kind": 178,
+              "expression": {
+                "pos": 499,
+                "end": 506,
+                "flags": 0,
+                "originalKeywordKind": 127,
+                "text": "module"
+              },
+              "name": {
+                "pos": 507,
+                "end": 509,
+                "flags": 0,
+                "text": "id"
+              }
+            }
+          },
+          {
+            "pos": 510,
+            "end": 538,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 510,
+              "end": 522,
+              "flags": 0,
+              "text": "selector"
+            },
+            "initializer": {
+              "pos": 523,
+              "end": 538,
+              "flags": 0,
+              "kind": 9,
+              "text": "av-typeahead"
+            }
+          },
+          {
+            "pos": 539,
+            "end": 572,
+            "flags": 0,
+            "kind": 259,
+            "name": {
+              "pos": 539,
+              "end": 554,
+              "flags": 0,
+              "text": "templateUrl"
+            },
+            "initializer": {
+              "pos": 555,
+              "end": 572,
+              "flags": 0,
+              "kind": 9,
+              "text": "typeahead.html"
+            }
+          }
+        ]
+      }
+    ],
+    "imports": [
+      {
+        "name": "CommonModule"
+      },
+      {
+        "name": "FormsModule"
+      },
+      {
+        "name": "InputModule"
+      }
+    ],
+    "exports": [
+      {
+        "name": "TypeaheadComponent"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "pos": 307,
+        "end": 360,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 307,
+          "end": 318,
+          "flags": 0,
+          "text": "imports"
+        },
+        "initializer": {
+          "pos": 319,
+          "end": 360,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 321,
+              "end": 333,
+              "flags": 0,
+              "text": "CommonModule"
+            },
+            {
+              "pos": 334,
+              "end": 346,
+              "flags": 0,
+              "text": "FormsModule"
+            },
+            {
+              "pos": 347,
+              "end": 359,
+              "flags": 0,
+              "text": "InputModule"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 361,
+        "end": 394,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 361,
+          "end": 372,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "pos": 373,
+          "end": 394,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 375,
+              "end": 393,
+              "flags": 0,
+              "text": "TypeaheadComponent"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 395,
+        "end": 433,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 395,
+          "end": 411,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "pos": 412,
+          "end": 433,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 414,
+              "end": 432,
+              "flags": 0,
+              "text": "TypeaheadComponent"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "AggregatePipesModule",
+    "file": "pipes/aggregate/index.ts",
+    "providers": [],
+    "declarations": [
+      {
+        "name": "GroupByPipe"
+      },
+      {
+        "name": "MaxPipe"
+      },
+      {
+        "name": "MeanPipe"
+      },
+      {
+        "name": "MinPipe"
+      },
+      {
+        "name": "SumPipe"
+      }
+    ],
+    "imports": [],
+    "exports": [
+      {
+        "name": "GroupByPipe"
+      },
+      {
+        "name": "MaxPipe"
+      },
+      {
+        "name": "MeanPipe"
+      },
+      {
+        "name": "MinPipe"
+      },
+      {
+        "name": "SumPipe"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "pos": 264,
+        "end": 362,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 264,
+          "end": 280,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "pos": 281,
+          "end": 362,
+          "flags": 0,
+          "kind": 176,
+          "multiLine": true,
+          "elements": [
+            {
+              "pos": 283,
+              "end": 300,
+              "flags": 0,
+              "text": "GroupByPipe"
+            },
+            {
+              "pos": 301,
+              "end": 314,
+              "flags": 0,
+              "text": "MaxPipe"
+            },
+            {
+              "pos": 315,
+              "end": 329,
+              "flags": 0,
+              "text": "MeanPipe"
+            },
+            {
+              "pos": 330,
+              "end": 343,
+              "flags": 0,
+              "text": "MinPipe"
+            },
+            {
+              "pos": 344,
+              "end": 357,
+              "flags": 0,
+              "text": "SumPipe"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 363,
+        "end": 456,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 363,
+          "end": 374,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "pos": 375,
+          "end": 456,
+          "flags": 0,
+          "kind": 176,
+          "multiLine": true,
+          "elements": [
+            {
+              "pos": 377,
+              "end": 394,
+              "flags": 0,
+              "text": "GroupByPipe"
+            },
+            {
+              "pos": 395,
+              "end": 408,
+              "flags": 0,
+              "text": "MaxPipe"
+            },
+            {
+              "pos": 409,
+              "end": 423,
+              "flags": 0,
+              "text": "MeanPipe"
+            },
+            {
+              "pos": 424,
+              "end": 437,
+              "flags": 0,
+              "text": "MinPipe"
+            },
+            {
+              "pos": 438,
+              "end": 451,
+              "flags": 0,
+              "text": "SumPipe"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "ArrayPipesModule",
+    "file": "pipes/array/index.ts",
+    "providers": [],
+    "declarations": [
+      {
+        "name": "EmptyPipe"
+      },
+      {
+        "name": "HeadPipe"
+      },
+      {
+        "name": "InitialPipe"
+      },
+      {
+        "name": "LastPipe"
+      },
+      {
+        "name": "JoinPipe"
+      },
+      {
+        "name": "TailPipe"
+      },
+      {
+        "name": "UniqPipe"
+      },
+      {
+        "name": "WithoutPipe"
+      },
+      {
+        "name": "MapPipe"
+      },
+      {
+        "name": "WherePipe"
+      },
+      {
+        "name": "RangePipe"
+      },
+      {
+        "name": "PluckPipe"
+      },
+      {
+        "name": "ReversePipe"
+      },
+      {
+        "name": "OrderByPipe"
+      },
+      {
+        "name": "CountPipe"
+      },
+      {
+        "name": "SomePipe"
+      },
+      {
+        "name": "EveryPipe"
+      },
+      {
+        "name": "ShufflePipe"
+      },
+      {
+        "name": "TakePipe"
+      },
+      {
+        "name": "DropPipe"
+      },
+      {
+        "name": "DeepPipe"
+      },
+      {
+        "name": "ChunkPipe"
+      },
+      {
+        "name": "FlattenPipe"
+      },
+      {
+        "name": "FirstOrDefaultPipe"
+      },
+      {
+        "name": "IntersectionPipe"
+      },
+      {
+        "name": "UnionPipe"
+      },
+      {
+        "name": "TakeWhilePipe"
+      },
+      {
+        "name": "TakeUntilPipe"
+      }
+    ],
+    "imports": [],
+    "exports": [
+      {
+        "name": "EmptyPipe"
+      },
+      {
+        "name": "HeadPipe"
+      },
+      {
+        "name": "InitialPipe"
+      },
+      {
+        "name": "LastPipe"
+      },
+      {
+        "name": "JoinPipe"
+      },
+      {
+        "name": "TailPipe"
+      },
+      {
+        "name": "UniqPipe"
+      },
+      {
+        "name": "WithoutPipe"
+      },
+      {
+        "name": "MapPipe"
+      },
+      {
+        "name": "WherePipe"
+      },
+      {
+        "name": "RangePipe"
+      },
+      {
+        "name": "PluckPipe"
+      },
+      {
+        "name": "ReversePipe"
+      },
+      {
+        "name": "OrderByPipe"
+      },
+      {
+        "name": "CountPipe"
+      },
+      {
+        "name": "SomePipe"
+      },
+      {
+        "name": "EveryPipe"
+      },
+      {
+        "name": "ShufflePipe"
+      },
+      {
+        "name": "TakePipe"
+      },
+      {
+        "name": "DropPipe"
+      },
+      {
+        "name": "DeepPipe"
+      },
+      {
+        "name": "ChunkPipe"
+      },
+      {
+        "name": "FlattenPipe"
+      },
+      {
+        "name": "FirstOrDefaultPipe"
+      },
+      {
+        "name": "IntersectionPipe"
+      },
+      {
+        "name": "UnionPipe"
+      },
+      {
+        "name": "TakeWhilePipe"
+      },
+      {
+        "name": "TakeUntilPipe"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "pos": 2219,
+        "end": 2715,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 2219,
+          "end": 2235,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "pos": 2236,
+          "end": 2715,
+          "flags": 0,
+          "kind": 176,
+          "multiLine": true,
+          "elements": [
+            {
+              "pos": 2238,
+              "end": 2253,
+              "flags": 0,
+              "text": "EmptyPipe"
+            },
+            {
+              "pos": 2254,
+              "end": 2268,
+              "flags": 0,
+              "text": "HeadPipe"
+            },
+            {
+              "pos": 2269,
+              "end": 2286,
+              "flags": 0,
+              "text": "InitialPipe"
+            },
+            {
+              "pos": 2287,
+              "end": 2301,
+              "flags": 0,
+              "text": "LastPipe"
+            },
+            {
+              "pos": 2302,
+              "end": 2316,
+              "flags": 0,
+              "text": "JoinPipe"
+            },
+            {
+              "pos": 2317,
+              "end": 2331,
+              "flags": 0,
+              "text": "TailPipe"
+            },
+            {
+              "pos": 2332,
+              "end": 2346,
+              "flags": 0,
+              "text": "UniqPipe"
+            },
+            {
+              "pos": 2347,
+              "end": 2364,
+              "flags": 0,
+              "text": "WithoutPipe"
+            },
+            {
+              "pos": 2365,
+              "end": 2378,
+              "flags": 0,
+              "text": "MapPipe"
+            },
+            {
+              "pos": 2379,
+              "end": 2394,
+              "flags": 0,
+              "text": "WherePipe"
+            },
+            {
+              "pos": 2395,
+              "end": 2410,
+              "flags": 0,
+              "text": "RangePipe"
+            },
+            {
+              "pos": 2411,
+              "end": 2426,
+              "flags": 0,
+              "text": "PluckPipe"
+            },
+            {
+              "pos": 2427,
+              "end": 2444,
+              "flags": 0,
+              "text": "ReversePipe"
+            },
+            {
+              "pos": 2445,
+              "end": 2462,
+              "flags": 0,
+              "text": "OrderByPipe"
+            },
+            {
+              "pos": 2463,
+              "end": 2478,
+              "flags": 0,
+              "text": "CountPipe"
+            },
+            {
+              "pos": 2479,
+              "end": 2493,
+              "flags": 0,
+              "text": "SomePipe"
+            },
+            {
+              "pos": 2494,
+              "end": 2509,
+              "flags": 0,
+              "text": "EveryPipe"
+            },
+            {
+              "pos": 2510,
+              "end": 2527,
+              "flags": 0,
+              "text": "ShufflePipe"
+            },
+            {
+              "pos": 2528,
+              "end": 2542,
+              "flags": 0,
+              "text": "TakePipe"
+            },
+            {
+              "pos": 2543,
+              "end": 2557,
+              "flags": 0,
+              "text": "DropPipe"
+            },
+            {
+              "pos": 2558,
+              "end": 2572,
+              "flags": 0,
+              "text": "DeepPipe"
+            },
+            {
+              "pos": 2573,
+              "end": 2588,
+              "flags": 0,
+              "text": "ChunkPipe"
+            },
+            {
+              "pos": 2589,
+              "end": 2606,
+              "flags": 0,
+              "text": "FlattenPipe"
+            },
+            {
+              "pos": 2607,
+              "end": 2631,
+              "flags": 0,
+              "text": "FirstOrDefaultPipe"
+            },
+            {
+              "pos": 2632,
+              "end": 2654,
+              "flags": 0,
+              "text": "IntersectionPipe"
+            },
+            {
+              "pos": 2655,
+              "end": 2670,
+              "flags": 0,
+              "text": "UnionPipe"
+            },
+            {
+              "pos": 2671,
+              "end": 2690,
+              "flags": 0,
+              "text": "TakeWhilePipe"
+            },
+            {
+              "pos": 2691,
+              "end": 2710,
+              "flags": 0,
+              "text": "TakeUntilPipe"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 2716,
+        "end": 3207,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 2716,
+          "end": 2727,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "pos": 2728,
+          "end": 3207,
+          "flags": 0,
+          "kind": 176,
+          "multiLine": true,
+          "elements": [
+            {
+              "pos": 2730,
+              "end": 2745,
+              "flags": 0,
+              "text": "EmptyPipe"
+            },
+            {
+              "pos": 2746,
+              "end": 2760,
+              "flags": 0,
+              "text": "HeadPipe"
+            },
+            {
+              "pos": 2761,
+              "end": 2778,
+              "flags": 0,
+              "text": "InitialPipe"
+            },
+            {
+              "pos": 2779,
+              "end": 2793,
+              "flags": 0,
+              "text": "LastPipe"
+            },
+            {
+              "pos": 2794,
+              "end": 2808,
+              "flags": 0,
+              "text": "JoinPipe"
+            },
+            {
+              "pos": 2809,
+              "end": 2823,
+              "flags": 0,
+              "text": "TailPipe"
+            },
+            {
+              "pos": 2824,
+              "end": 2838,
+              "flags": 0,
+              "text": "UniqPipe"
+            },
+            {
+              "pos": 2839,
+              "end": 2856,
+              "flags": 0,
+              "text": "WithoutPipe"
+            },
+            {
+              "pos": 2857,
+              "end": 2870,
+              "flags": 0,
+              "text": "MapPipe"
+            },
+            {
+              "pos": 2871,
+              "end": 2886,
+              "flags": 0,
+              "text": "WherePipe"
+            },
+            {
+              "pos": 2887,
+              "end": 2902,
+              "flags": 0,
+              "text": "RangePipe"
+            },
+            {
+              "pos": 2903,
+              "end": 2918,
+              "flags": 0,
+              "text": "PluckPipe"
+            },
+            {
+              "pos": 2919,
+              "end": 2936,
+              "flags": 0,
+              "text": "ReversePipe"
+            },
+            {
+              "pos": 2937,
+              "end": 2954,
+              "flags": 0,
+              "text": "OrderByPipe"
+            },
+            {
+              "pos": 2955,
+              "end": 2970,
+              "flags": 0,
+              "text": "CountPipe"
+            },
+            {
+              "pos": 2971,
+              "end": 2985,
+              "flags": 0,
+              "text": "SomePipe"
+            },
+            {
+              "pos": 2986,
+              "end": 3001,
+              "flags": 0,
+              "text": "EveryPipe"
+            },
+            {
+              "pos": 3002,
+              "end": 3019,
+              "flags": 0,
+              "text": "ShufflePipe"
+            },
+            {
+              "pos": 3020,
+              "end": 3034,
+              "flags": 0,
+              "text": "TakePipe"
+            },
+            {
+              "pos": 3035,
+              "end": 3049,
+              "flags": 0,
+              "text": "DropPipe"
+            },
+            {
+              "pos": 3050,
+              "end": 3064,
+              "flags": 0,
+              "text": "DeepPipe"
+            },
+            {
+              "pos": 3065,
+              "end": 3080,
+              "flags": 0,
+              "text": "ChunkPipe"
+            },
+            {
+              "pos": 3081,
+              "end": 3098,
+              "flags": 0,
+              "text": "FlattenPipe"
+            },
+            {
+              "pos": 3099,
+              "end": 3123,
+              "flags": 0,
+              "text": "FirstOrDefaultPipe"
+            },
+            {
+              "pos": 3124,
+              "end": 3146,
+              "flags": 0,
+              "text": "IntersectionPipe"
+            },
+            {
+              "pos": 3147,
+              "end": 3162,
+              "flags": 0,
+              "text": "UnionPipe"
+            },
+            {
+              "pos": 3163,
+              "end": 3182,
+              "flags": 0,
+              "text": "TakeWhilePipe"
+            },
+            {
+              "pos": 3183,
+              "end": 3202,
+              "flags": 0,
+              "text": "TakeUntilPipe"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "BooleanPipesModule",
+    "file": "pipes/boolean/index.ts",
+    "providers": [],
+    "declarations": [
+      {
+        "name": "IsGreaterPipe"
+      },
+      {
+        "name": "IsGreaterOrEqualPipe"
+      },
+      {
+        "name": "IsLessPipe"
+      },
+      {
+        "name": "IsLessOrEqualPipe"
+      },
+      {
+        "name": "IsEqualPipe"
+      },
+      {
+        "name": "IsNotEqualPipe"
+      },
+      {
+        "name": "IsIdenticalPipe"
+      },
+      {
+        "name": "IsNotIdenticalPipe"
+      },
+      {
+        "name": "IsNilPipe"
+      },
+      {
+        "name": "IsNullPipe"
+      },
+      {
+        "name": "IsUndefinedPipe"
+      },
+      {
+        "name": "IsFunctionPipe"
+      },
+      {
+        "name": "IsNumberPipe"
+      },
+      {
+        "name": "IsStringPipe"
+      },
+      {
+        "name": "IsArrayPipe"
+      },
+      {
+        "name": "IsObjectPipe"
+      },
+      {
+        "name": "IsDefinedPipe"
+      }
+    ],
+    "imports": [],
+    "exports": [
+      {
+        "name": "IsGreaterPipe"
+      },
+      {
+        "name": "IsGreaterOrEqualPipe"
+      },
+      {
+        "name": "IsLessPipe"
+      },
+      {
+        "name": "IsLessOrEqualPipe"
+      },
+      {
+        "name": "IsEqualPipe"
+      },
+      {
+        "name": "IsNotEqualPipe"
+      },
+      {
+        "name": "IsIdenticalPipe"
+      },
+      {
+        "name": "IsNotIdenticalPipe"
+      },
+      {
+        "name": "IsNilPipe"
+      },
+      {
+        "name": "IsNullPipe"
+      },
+      {
+        "name": "IsUndefinedPipe"
+      },
+      {
+        "name": "IsFunctionPipe"
+      },
+      {
+        "name": "IsNumberPipe"
+      },
+      {
+        "name": "IsStringPipe"
+      },
+      {
+        "name": "IsArrayPipe"
+      },
+      {
+        "name": "IsObjectPipe"
+      },
+      {
+        "name": "IsDefinedPipe"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "pos": 477,
+        "end": 917,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 477,
+          "end": 495,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "pos": 496,
+          "end": 917,
+          "flags": 0,
+          "kind": 176,
+          "multiLine": true,
+          "elements": [
+            {
+              "pos": 498,
+              "end": 521,
+              "flags": 0,
+              "text": "IsGreaterPipe"
+            },
+            {
+              "pos": 522,
+              "end": 552,
+              "flags": 0,
+              "text": "IsGreaterOrEqualPipe"
+            },
+            {
+              "pos": 553,
+              "end": 573,
+              "flags": 0,
+              "text": "IsLessPipe"
+            },
+            {
+              "pos": 574,
+              "end": 601,
+              "flags": 0,
+              "text": "IsLessOrEqualPipe"
+            },
+            {
+              "pos": 602,
+              "end": 623,
+              "flags": 0,
+              "text": "IsEqualPipe"
+            },
+            {
+              "pos": 624,
+              "end": 648,
+              "flags": 0,
+              "text": "IsNotEqualPipe"
+            },
+            {
+              "pos": 649,
+              "end": 674,
+              "flags": 0,
+              "text": "IsIdenticalPipe"
+            },
+            {
+              "pos": 675,
+              "end": 703,
+              "flags": 0,
+              "text": "IsNotIdenticalPipe"
+            },
+            {
+              "pos": 704,
+              "end": 723,
+              "flags": 0,
+              "text": "IsNilPipe"
+            },
+            {
+              "pos": 724,
+              "end": 744,
+              "flags": 0,
+              "text": "IsNullPipe"
+            },
+            {
+              "pos": 745,
+              "end": 770,
+              "flags": 0,
+              "text": "IsUndefinedPipe"
+            },
+            {
+              "pos": 771,
+              "end": 795,
+              "flags": 0,
+              "text": "IsFunctionPipe"
+            },
+            {
+              "pos": 796,
+              "end": 818,
+              "flags": 0,
+              "text": "IsNumberPipe"
+            },
+            {
+              "pos": 819,
+              "end": 841,
+              "flags": 0,
+              "text": "IsStringPipe"
+            },
+            {
+              "pos": 842,
+              "end": 863,
+              "flags": 0,
+              "text": "IsArrayPipe"
+            },
+            {
+              "pos": 864,
+              "end": 886,
+              "flags": 0,
+              "text": "IsObjectPipe"
+            },
+            {
+              "pos": 887,
+              "end": 910,
+              "flags": 0,
+              "text": "IsDefinedPipe"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 918,
+        "end": 1353,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 918,
+          "end": 931,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "pos": 932,
+          "end": 1353,
+          "flags": 0,
+          "kind": 176,
+          "multiLine": true,
+          "elements": [
+            {
+              "pos": 934,
+              "end": 957,
+              "flags": 0,
+              "text": "IsGreaterPipe"
+            },
+            {
+              "pos": 958,
+              "end": 988,
+              "flags": 0,
+              "text": "IsGreaterOrEqualPipe"
+            },
+            {
+              "pos": 989,
+              "end": 1009,
+              "flags": 0,
+              "text": "IsLessPipe"
+            },
+            {
+              "pos": 1010,
+              "end": 1037,
+              "flags": 0,
+              "text": "IsLessOrEqualPipe"
+            },
+            {
+              "pos": 1038,
+              "end": 1059,
+              "flags": 0,
+              "text": "IsEqualPipe"
+            },
+            {
+              "pos": 1060,
+              "end": 1084,
+              "flags": 0,
+              "text": "IsNotEqualPipe"
+            },
+            {
+              "pos": 1085,
+              "end": 1110,
+              "flags": 0,
+              "text": "IsIdenticalPipe"
+            },
+            {
+              "pos": 1111,
+              "end": 1139,
+              "flags": 0,
+              "text": "IsNotIdenticalPipe"
+            },
+            {
+              "pos": 1140,
+              "end": 1159,
+              "flags": 0,
+              "text": "IsNilPipe"
+            },
+            {
+              "pos": 1160,
+              "end": 1180,
+              "flags": 0,
+              "text": "IsNullPipe"
+            },
+            {
+              "pos": 1181,
+              "end": 1206,
+              "flags": 0,
+              "text": "IsUndefinedPipe"
+            },
+            {
+              "pos": 1207,
+              "end": 1231,
+              "flags": 0,
+              "text": "IsFunctionPipe"
+            },
+            {
+              "pos": 1232,
+              "end": 1254,
+              "flags": 0,
+              "text": "IsNumberPipe"
+            },
+            {
+              "pos": 1255,
+              "end": 1277,
+              "flags": 0,
+              "text": "IsStringPipe"
+            },
+            {
+              "pos": 1278,
+              "end": 1299,
+              "flags": 0,
+              "text": "IsArrayPipe"
+            },
+            {
+              "pos": 1300,
+              "end": 1322,
+              "flags": 0,
+              "text": "IsObjectPipe"
+            },
+            {
+              "pos": 1323,
+              "end": 1346,
+              "flags": 0,
+              "text": "IsDefinedPipe"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "PipesModule",
+    "file": "shared/pipes/index.ts",
+    "providers": [],
+    "declarations": [],
+    "imports": [],
+    "exports": [
+      {
+        "name": "ArrayPipesModule"
+      },
+      {
+        "name": "MathPipesModule"
+      },
+      {
+        "name": "BooleanPipesModule"
+      },
+      {
+        "name": "StringPipesModule"
+      },
+      {
+        "name": "ObjectPipesModule"
+      },
+      {
+        "name": "AggregatePipesModule"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "pos": 369,
+        "end": 524,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 369,
+          "end": 379,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "pos": 380,
+          "end": 524,
+          "flags": 0,
+          "kind": 176,
+          "multiLine": true,
+          "elements": [
+            {
+              "pos": 382,
+              "end": 403,
+              "flags": 0,
+              "text": "ArrayPipesModule"
+            },
+            {
+              "pos": 404,
+              "end": 424,
+              "flags": 0,
+              "text": "MathPipesModule"
+            },
+            {
+              "pos": 425,
+              "end": 448,
+              "flags": 0,
+              "text": "BooleanPipesModule"
+            },
+            {
+              "pos": 449,
+              "end": 471,
+              "flags": 0,
+              "text": "StringPipesModule"
+            },
+            {
+              "pos": 472,
+              "end": 494,
+              "flags": 0,
+              "text": "ObjectPipesModule"
+            },
+            {
+              "pos": 495,
+              "end": 520,
+              "flags": 0,
+              "text": "AggregatePipesModule"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "MathPipesModule",
+    "file": "pipes/math/index.ts",
+    "providers": [],
+    "declarations": [
+      {
+        "name": "BytesPipe"
+      },
+      {
+        "name": "CeilPipe"
+      },
+      {
+        "name": "FloorPipe"
+      },
+      {
+        "name": "RoundPipe"
+      },
+      {
+        "name": "DegreesPipe"
+      },
+      {
+        "name": "RadiansPipe"
+      },
+      {
+        "name": "RandomPipe"
+      },
+      {
+        "name": "SqrtPipe"
+      },
+      {
+        "name": "PowPipe"
+      }
+    ],
+    "imports": [],
+    "exports": [
+      {
+        "name": "BytesPipe"
+      },
+      {
+        "name": "CeilPipe"
+      },
+      {
+        "name": "FloorPipe"
+      },
+      {
+        "name": "RoundPipe"
+      },
+      {
+        "name": "DegreesPipe"
+      },
+      {
+        "name": "RadiansPipe"
+      },
+      {
+        "name": "RandomPipe"
+      },
+      {
+        "name": "SqrtPipe"
+      },
+      {
+        "name": "PowPipe"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "pos": 729,
+        "end": 897,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 729,
+          "end": 745,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "pos": 746,
+          "end": 897,
+          "flags": 0,
+          "kind": 176,
+          "multiLine": true,
+          "elements": [
+            {
+              "pos": 748,
+              "end": 763,
+              "flags": 0,
+              "text": "BytesPipe"
+            },
+            {
+              "pos": 764,
+              "end": 778,
+              "flags": 0,
+              "text": "CeilPipe"
+            },
+            {
+              "pos": 779,
+              "end": 794,
+              "flags": 0,
+              "text": "FloorPipe"
+            },
+            {
+              "pos": 795,
+              "end": 810,
+              "flags": 0,
+              "text": "RoundPipe"
+            },
+            {
+              "pos": 811,
+              "end": 828,
+              "flags": 0,
+              "text": "DegreesPipe"
+            },
+            {
+              "pos": 829,
+              "end": 846,
+              "flags": 0,
+              "text": "RadiansPipe"
+            },
+            {
+              "pos": 847,
+              "end": 863,
+              "flags": 0,
+              "text": "RandomPipe"
+            },
+            {
+              "pos": 864,
+              "end": 878,
+              "flags": 0,
+              "text": "SqrtPipe"
+            },
+            {
+              "pos": 879,
+              "end": 892,
+              "flags": 0,
+              "text": "PowPipe"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 898,
+        "end": 1061,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 898,
+          "end": 909,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "pos": 910,
+          "end": 1061,
+          "flags": 0,
+          "kind": 176,
+          "multiLine": true,
+          "elements": [
+            {
+              "pos": 912,
+              "end": 927,
+              "flags": 0,
+              "text": "BytesPipe"
+            },
+            {
+              "pos": 928,
+              "end": 942,
+              "flags": 0,
+              "text": "CeilPipe"
+            },
+            {
+              "pos": 943,
+              "end": 958,
+              "flags": 0,
+              "text": "FloorPipe"
+            },
+            {
+              "pos": 959,
+              "end": 974,
+              "flags": 0,
+              "text": "RoundPipe"
+            },
+            {
+              "pos": 975,
+              "end": 992,
+              "flags": 0,
+              "text": "DegreesPipe"
+            },
+            {
+              "pos": 993,
+              "end": 1010,
+              "flags": 0,
+              "text": "RadiansPipe"
+            },
+            {
+              "pos": 1011,
+              "end": 1027,
+              "flags": 0,
+              "text": "RandomPipe"
+            },
+            {
+              "pos": 1028,
+              "end": 1042,
+              "flags": 0,
+              "text": "SqrtPipe"
+            },
+            {
+              "pos": 1043,
+              "end": 1056,
+              "flags": 0,
+              "text": "PowPipe"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "ObjectPipesModule",
+    "file": "pipes/object/index.ts",
+    "providers": [],
+    "declarations": [
+      {
+        "name": "KeysPipe"
+      },
+      {
+        "name": "ToArrayPipe"
+      },
+      {
+        "name": "DefaultsPipe"
+      }
+    ],
+    "imports": [],
+    "exports": [
+      {
+        "name": "KeysPipe"
+      },
+      {
+        "name": "ToArrayPipe"
+      },
+      {
+        "name": "DefaultsPipe"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "pos": 294,
+        "end": 369,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 294,
+          "end": 310,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "pos": 311,
+          "end": 369,
+          "flags": 0,
+          "kind": 176,
+          "multiLine": true,
+          "elements": [
+            {
+              "pos": 313,
+              "end": 327,
+              "flags": 0,
+              "text": "KeysPipe"
+            },
+            {
+              "pos": 328,
+              "end": 345,
+              "flags": 0,
+              "text": "ToArrayPipe"
+            },
+            {
+              "pos": 346,
+              "end": 364,
+              "flags": 0,
+              "text": "DefaultsPipe"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 370,
+        "end": 440,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 370,
+          "end": 381,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "pos": 382,
+          "end": 440,
+          "flags": 0,
+          "kind": 176,
+          "multiLine": true,
+          "elements": [
+            {
+              "pos": 384,
+              "end": 398,
+              "flags": 0,
+              "text": "KeysPipe"
+            },
+            {
+              "pos": 399,
+              "end": 416,
+              "flags": 0,
+              "text": "ToArrayPipe"
+            },
+            {
+              "pos": 417,
+              "end": 435,
+              "flags": 0,
+              "text": "DefaultsPipe"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "StringPipesModule",
+    "file": "pipes/string/index.ts",
+    "providers": [],
+    "declarations": [
+      {
+        "name": "LeftPadPipe"
+      },
+      {
+        "name": "MatchPipe"
+      },
+      {
+        "name": "PadPipe"
+      },
+      {
+        "name": "ReplacePipe"
+      },
+      {
+        "name": "RightPadPipe"
+      },
+      {
+        "name": "SplitPipe"
+      },
+      {
+        "name": "TestPipe"
+      },
+      {
+        "name": "TrimPipe"
+      },
+      {
+        "name": "NewlinesPipe"
+      },
+      {
+        "name": "CapitalizePipe"
+      },
+      {
+        "name": "UpperFirstPipe"
+      },
+      {
+        "name": "TemplatePipe"
+      },
+      {
+        "name": "EncodeURIPipe"
+      },
+      {
+        "name": "EncodeURIComponentPipe"
+      },
+      {
+        "name": "DecodeURIPipe"
+      },
+      {
+        "name": "DecodeURIComponentPipe"
+      },
+      {
+        "name": "TruncatePipe"
+      },
+      {
+        "name": "RepeatPipe"
+      },
+      {
+        "name": "SlugifyPipe"
+      },
+      {
+        "name": "StripTagsPipe"
+      },
+      {
+        "name": "LatinizePipe"
+      },
+      {
+        "name": "WrapPipe"
+      },
+      {
+        "name": "WithPipe"
+      },
+      {
+        "name": "ReverseStrPipe"
+      }
+    ],
+    "imports": [],
+    "exports": [
+      {
+        "name": "LeftPadPipe"
+      },
+      {
+        "name": "MatchPipe"
+      },
+      {
+        "name": "PadPipe"
+      },
+      {
+        "name": "ReplacePipe"
+      },
+      {
+        "name": "RightPadPipe"
+      },
+      {
+        "name": "SplitPipe"
+      },
+      {
+        "name": "TestPipe"
+      },
+      {
+        "name": "TrimPipe"
+      },
+      {
+        "name": "NewlinesPipe"
+      },
+      {
+        "name": "CapitalizePipe"
+      },
+      {
+        "name": "UpperFirstPipe"
+      },
+      {
+        "name": "TemplatePipe"
+      },
+      {
+        "name": "EncodeURIPipe"
+      },
+      {
+        "name": "EncodeURIComponentPipe"
+      },
+      {
+        "name": "DecodeURIPipe"
+      },
+      {
+        "name": "DecodeURIComponentPipe"
+      },
+      {
+        "name": "TruncatePipe"
+      },
+      {
+        "name": "RepeatPipe"
+      },
+      {
+        "name": "SlugifyPipe"
+      },
+      {
+        "name": "StripTagsPipe"
+      },
+      {
+        "name": "LatinizePipe"
+      },
+      {
+        "name": "WrapPipe"
+      },
+      {
+        "name": "WithPipe"
+      },
+      {
+        "name": "ReverseStrPipe"
+      }
+    ],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "pos": 2013,
+        "end": 2489,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 2013,
+          "end": 2029,
+          "flags": 0,
+          "text": "declarations"
+        },
+        "initializer": {
+          "pos": 2030,
+          "end": 2489,
+          "flags": 0,
+          "kind": 176,
+          "multiLine": true,
+          "elements": [
+            {
+              "pos": 2032,
+              "end": 2049,
+              "flags": 0,
+              "text": "LeftPadPipe"
+            },
+            {
+              "pos": 2050,
+              "end": 2065,
+              "flags": 0,
+              "text": "MatchPipe"
+            },
+            {
+              "pos": 2066,
+              "end": 2079,
+              "flags": 0,
+              "text": "PadPipe"
+            },
+            {
+              "pos": 2080,
+              "end": 2097,
+              "flags": 0,
+              "text": "ReplacePipe"
+            },
+            {
+              "pos": 2098,
+              "end": 2116,
+              "flags": 0,
+              "text": "RightPadPipe"
+            },
+            {
+              "pos": 2117,
+              "end": 2132,
+              "flags": 0,
+              "text": "SplitPipe"
+            },
+            {
+              "pos": 2133,
+              "end": 2147,
+              "flags": 0,
+              "text": "TestPipe"
+            },
+            {
+              "pos": 2148,
+              "end": 2162,
+              "flags": 0,
+              "text": "TrimPipe"
+            },
+            {
+              "pos": 2163,
+              "end": 2181,
+              "flags": 0,
+              "text": "NewlinesPipe"
+            },
+            {
+              "pos": 2182,
+              "end": 2202,
+              "flags": 0,
+              "text": "CapitalizePipe"
+            },
+            {
+              "pos": 2203,
+              "end": 2223,
+              "flags": 0,
+              "text": "UpperFirstPipe"
+            },
+            {
+              "pos": 2224,
+              "end": 2242,
+              "flags": 0,
+              "text": "TemplatePipe"
+            },
+            {
+              "pos": 2243,
+              "end": 2262,
+              "flags": 0,
+              "text": "EncodeURIPipe"
+            },
+            {
+              "pos": 2263,
+              "end": 2291,
+              "flags": 0,
+              "text": "EncodeURIComponentPipe"
+            },
+            {
+              "pos": 2292,
+              "end": 2311,
+              "flags": 0,
+              "text": "DecodeURIPipe"
+            },
+            {
+              "pos": 2312,
+              "end": 2340,
+              "flags": 0,
+              "text": "DecodeURIComponentPipe"
+            },
+            {
+              "pos": 2341,
+              "end": 2359,
+              "flags": 0,
+              "text": "TruncatePipe"
+            },
+            {
+              "pos": 2360,
+              "end": 2376,
+              "flags": 0,
+              "text": "RepeatPipe"
+            },
+            {
+              "pos": 2377,
+              "end": 2394,
+              "flags": 0,
+              "text": "SlugifyPipe"
+            },
+            {
+              "pos": 2395,
+              "end": 2414,
+              "flags": 0,
+              "text": "StripTagsPipe"
+            },
+            {
+              "pos": 2415,
+              "end": 2433,
+              "flags": 0,
+              "text": "LatinizePipe"
+            },
+            {
+              "pos": 2434,
+              "end": 2448,
+              "flags": 0,
+              "text": "WrapPipe"
+            },
+            {
+              "pos": 2449,
+              "end": 2463,
+              "flags": 0,
+              "text": "WithPipe"
+            },
+            {
+              "pos": 2464,
+              "end": 2484,
+              "flags": 0,
+              "text": "ReverseStrPipe"
+            }
+          ]
+        }
+      },
+      {
+        "pos": 2490,
+        "end": 2961,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 2490,
+          "end": 2501,
+          "flags": 0,
+          "text": "exports"
+        },
+        "initializer": {
+          "pos": 2502,
+          "end": 2961,
+          "flags": 0,
+          "kind": 176,
+          "multiLine": true,
+          "elements": [
+            {
+              "pos": 2504,
+              "end": 2521,
+              "flags": 0,
+              "text": "LeftPadPipe"
+            },
+            {
+              "pos": 2522,
+              "end": 2537,
+              "flags": 0,
+              "text": "MatchPipe"
+            },
+            {
+              "pos": 2538,
+              "end": 2551,
+              "flags": 0,
+              "text": "PadPipe"
+            },
+            {
+              "pos": 2552,
+              "end": 2569,
+              "flags": 0,
+              "text": "ReplacePipe"
+            },
+            {
+              "pos": 2570,
+              "end": 2588,
+              "flags": 0,
+              "text": "RightPadPipe"
+            },
+            {
+              "pos": 2589,
+              "end": 2604,
+              "flags": 0,
+              "text": "SplitPipe"
+            },
+            {
+              "pos": 2605,
+              "end": 2619,
+              "flags": 0,
+              "text": "TestPipe"
+            },
+            {
+              "pos": 2620,
+              "end": 2634,
+              "flags": 0,
+              "text": "TrimPipe"
+            },
+            {
+              "pos": 2635,
+              "end": 2653,
+              "flags": 0,
+              "text": "NewlinesPipe"
+            },
+            {
+              "pos": 2654,
+              "end": 2674,
+              "flags": 0,
+              "text": "CapitalizePipe"
+            },
+            {
+              "pos": 2675,
+              "end": 2695,
+              "flags": 0,
+              "text": "UpperFirstPipe"
+            },
+            {
+              "pos": 2696,
+              "end": 2714,
+              "flags": 0,
+              "text": "TemplatePipe"
+            },
+            {
+              "pos": 2715,
+              "end": 2734,
+              "flags": 0,
+              "text": "EncodeURIPipe"
+            },
+            {
+              "pos": 2735,
+              "end": 2763,
+              "flags": 0,
+              "text": "EncodeURIComponentPipe"
+            },
+            {
+              "pos": 2764,
+              "end": 2783,
+              "flags": 0,
+              "text": "DecodeURIPipe"
+            },
+            {
+              "pos": 2784,
+              "end": 2812,
+              "flags": 0,
+              "text": "DecodeURIComponentPipe"
+            },
+            {
+              "pos": 2813,
+              "end": 2831,
+              "flags": 0,
+              "text": "TruncatePipe"
+            },
+            {
+              "pos": 2832,
+              "end": 2848,
+              "flags": 0,
+              "text": "RepeatPipe"
+            },
+            {
+              "pos": 2849,
+              "end": 2866,
+              "flags": 0,
+              "text": "SlugifyPipe"
+            },
+            {
+              "pos": 2867,
+              "end": 2886,
+              "flags": 0,
+              "text": "StripTagsPipe"
+            },
+            {
+              "pos": 2887,
+              "end": 2905,
+              "flags": 0,
+              "text": "LatinizePipe"
+            },
+            {
+              "pos": 2906,
+              "end": 2920,
+              "flags": 0,
+              "text": "WrapPipe"
+            },
+            {
+              "pos": 2921,
+              "end": 2935,
+              "flags": 0,
+              "text": "WithPipe"
+            },
+            {
+              "pos": 2936,
+              "end": 2956,
+              "flags": 0,
+              "text": "ReverseStrPipe"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "WebSocketClientModule",
+    "file": "shared/websocketclient/index.ts",
+    "providers": [],
+    "declarations": [],
+    "imports": [],
+    "exports": [],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "pos": 146,
+        "end": 165,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 146,
+          "end": 161,
+          "flags": 0,
+          "text": "providers"
+        },
+        "initializer": {
+          "pos": 162,
+          "end": 165,
+          "flags": 0,
+          "kind": 176,
+          "elements": []
+        }
+      }
+    ]
+  },
+  {
+    "name": "WebStorageModule",
+    "file": "shared/webstorage/index.ts",
+    "providers": [
+      {
+        "name": "CookieStorageService"
+      },
+      {
+        "name": "MemoryStorageService"
+      },
+      {
+        "name": "LocalStorageService"
+      },
+      {
+        "name": "SessionStorageService"
+      }
+    ],
+    "declarations": [],
+    "imports": [],
+    "exports": [],
+    "bootstrap": [],
+    "__raw": [
+      {
+        "pos": 413,
+        "end": 515,
+        "flags": 0,
+        "kind": 259,
+        "name": {
+          "pos": 413,
+          "end": 425,
+          "flags": 0,
+          "text": "providers"
+        },
+        "initializer": {
+          "pos": 426,
+          "end": 515,
+          "flags": 0,
+          "kind": 176,
+          "elements": [
+            {
+              "pos": 428,
+              "end": 448,
+              "flags": 0,
+              "text": "CookieStorageService"
+            },
+            {
+              "pos": 449,
+              "end": 470,
+              "flags": 0,
+              "text": "MemoryStorageService"
+            },
+            {
+              "pos": 471,
+              "end": 491,
+              "flags": 0,
+              "text": "LocalStorageService"
+            },
+            {
+              "pos": 492,
+              "end": 514,
+              "flags": 0,
+              "text": "SessionStorageService"
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

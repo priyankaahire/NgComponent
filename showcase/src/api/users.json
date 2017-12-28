@@ -1,0 +1,29 @@
+{
+    "meta": {
+        "status": "SUCCESS",
+        "data": { "count": 1, "totalcount": 10, "offset": 0, "limit": 100 }
+    },
+    "data": [{
+            "id": 1,
+            "username": "priyanka_ahire",
+            "password": "priyanka123",
+            "firstName": "priyanka",
+            "lastName": "ahire",
+            "displayname": "Priyanka Ahire",
+            "ispair": "1",
+            "otp": "657231",
+            "email": "priyanka_ahire @assetvantage.com"
+        },
+        {
+            "id": 2,
+            "username": "priyanka@ahire",
+            "password": "priyanka123",
+            "firstName": "priyanka",
+            "lastName": "ahire",
+            "displayname": "Priyanka Ahire",
+            "ispair": "",
+            "otp": "657231",
+            "email": "priyanka@ahire @assetvantage.com"
+        }
+    ]
+}

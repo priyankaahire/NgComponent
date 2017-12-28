@@ -1,0 +1,42 @@
+[{
+    "meta": {
+        "status": "SUCCESS",
+        "data": { "count": 7, "totalcount": 7, "offset": 0, "limit": 10 }
+    },
+    "data": [{
+            "id": 1,
+            "name": "Analytics",
+            "description": ""
+        },
+        {
+            "id": 2,
+            "name": "Ledger",
+            "description": ""
+        },
+        {
+            "id": 3,
+            "name": "Transactions",
+            "description": ""
+        },
+        {
+            "id": 4,
+            "name": "Documents",
+            "description": ""
+        },
+        {
+            "id": 5,
+            "name": "Accounts",
+            "description": ""
+        },
+        {
+            "id": 6,
+            "name": "Positions",
+            "description": ""
+        },
+        {
+            "id": 7,
+            "name": "Alerts",
+            "description": ""
+        }
+    ]
+}]
