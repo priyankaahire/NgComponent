@@ -1,20 +1,62 @@
-import { Component, OnInit, Input, ViewChild, Output, EventEmitter, Inject, AfterViewChecked, AfterViewInit } from '@angular/core';
-import { NgForm, FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { AsyncPipe } from '@angular/common';
-import { Router } from '@angular/router';
-import { HttpModule, Http, Response, Headers, BaseRequestOptions, RequestOptions, RequestOptionsArgs, ResponseContentType } from '@angular/http';
-import './rxjs-operators';
+import { Component, OnInit } from '@angular/core';
+import { trigger, state, style, transition, animate } from '@angular/animations';
 
 @Component({
-  moduleId: module.id,
-  selector: 'assetvantage',
-  templateUrl: './app.component.html',
-  providers:[],
-})
+    moduleId: module.id,
+    selector: 'my-ngcomponent',
+    templateUrl: './app.template.html',
+   // styleUrls: ['./app.component.scss'],
+    animations: [
+        trigger('overlayState', [
+            state('hidden', style({
+                opacity: 0
+            })),
+            state('visible', style({
+                opacity: 1
+            })),
+            transition('visible => hidden', animate('400ms ease-in')),
+            transition('hidden => visible', animate('400ms ease-out'))
+        ]),
 
-export class AppComponent {
-  constructor() {
-  }
-  ngOnInit() {
-  }
+        trigger('notificationTopbar', [
+            state('hidden', style({
+                height: '0',
+                opacity: 0
+            })),
+            state('visible', style({
+                height: '*',
+                opacity: 1
+            })),
+            transition('visible => hidden', animate('400ms ease-in')),
+            transition('hidden => visible', animate('400ms ease-out'))
+        ])
+    ],
+})
+export class AppComponent implements OnInit {
+
+    menuActive: boolean;
+
+    activeMenuId: string;
+
+    notification: boolean = false;
+
+    ngOnInit() {
+        setTimeout(() => this.notification = true, 1000);
+    }
+
+    changeTheme(event: Event, theme: string) {
+        let themeLink: HTMLLinkElement = <HTMLLinkElement>document.getElementById('theme-css');
+        themeLink.href = 'assets/components/themes/' + theme + '/theme.css';
+        event.preventDefault();
+    }
+
+    onMenuButtonClick(event: Event) {
+        this.menuActive = !this.menuActive;
+        event.preventDefault();
+    }
+
+    closeNotification(event) {
+        this.notification = false;
+        event.preventDefault();
+    }
 }

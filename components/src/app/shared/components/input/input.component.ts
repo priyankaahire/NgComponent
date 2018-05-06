@@ -2,9 +2,7 @@ import { NgModule, Component, AfterViewInit, ElementRef, OnDestroy, HostListener
 import { CommonModule } from '@angular/common';
 import { DomHandler } from '../components.interfaces';
 
-/*
-* <av-input id="username" name="username" class="username" type="text" placeholder="Username" [(ngModel)]="username"></av-input>
-*/
+
 @Component({
   moduleId: module.id,
   selector: 'my-input',
@@ -14,7 +12,7 @@ import { DomHandler } from '../components.interfaces';
 export class InputComponent implements AfterViewInit, OnDestroy {
    constructor(private el: ElementRef, private domHandler: DomHandler) {}
     @Input() isOptional: boolean = false;
-    @Input() label: string = '';
+    @Input() label: string;
     @Input() placeholder: string = '';
     @Input() isDisabled: boolean = false;
     @Input() readonly: string = '';
@@ -26,7 +24,7 @@ export class InputComponent implements AfterViewInit, OnDestroy {
     private initialized: boolean;
     ngAfterViewInit() {
     }
-  ngOnDestroy() {
+   ngOnDestroy() {
     while (this.el.nativeElement.hasChildNodes()) {
       this.el.nativeElement.removeChild(this.el.nativeElement.lastChild);
     }

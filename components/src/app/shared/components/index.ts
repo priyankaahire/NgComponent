@@ -1,2 +1,2 @@
-export {InputModule} from './components.module';
-export {InputComponent} from './components.component';
+export {InputModule, ButtonModule} from './components.module';
+export {InputComponent, ButtonComponent} from './components.component';

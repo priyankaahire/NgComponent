@@ -23,7 +23,6 @@ const csscomb = require('gulp-csscomb');
 const rename = require('gulp-rename');
 const concat = require('gulp-concat');
 const uglify = require('gulp-uglify');
-const metrics = require('gulp-tsmetrics');
 
 gulp.task('default', function () {
 });

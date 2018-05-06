@@ -1,0 +1,48 @@
+<!-- <div class="layout-wrapper">
+   Example of Input component
+   <my-input label="Username" placeholder="Usernmae" type="text" ></my-input>
+</div> -->
+<div class="layout-wrapper">
+    <div id="layout-topbar" class="layout-topbar">
+        <a href="#" class="menu-button" (click)="onMenuButtonClick($event)">
+            <i class="fa fa-bars"></i>
+        </a>
+        <!-- <a href="#" id="logo" class="logo" [routerLink]="['/']">
+            <img alt="logo" src="assets/images/angular-logo.png" />
+        </a> -->
+        <a href="#" id="header-text" class="header-text" [routerLink]="['/']">
+            <span>My Ng Component </span>
+        </a>
+    </div>
+
+    <div class="layout-sidebar" id="layout-sidebar" [ngClass]="{'active': menuActive}">
+        <div id="layout-menu" class="layout-menu">
+            <a [routerLink]="['/inputdemo']" (click)="menuActive = false" id="menu_input" #inputmenutitle>
+                <span>Input</span>
+            </a>
+            <a [routerLink]="['/buttondemo']" (click)="menuActive = false" id="menu_input" #buttonmenutitle>
+                <span>Button</span>
+            </a>
+            <a id="menu_input" #inputmenutitle>
+                <span>Multiselect</span>
+            </a>
+            <a id="menu_input" #inputmenutitle>
+                <span>Table</span>
+            </a>
+        </div>
+    </div>
+    <div id="layout-mask" class="layout-mask" *ngIf="menuActive">
+    </div>
+    <div id="layout-content" class="layout-content">
+        <div>
+            <router-outlet>
+            </router-outlet>
+        </div>
+        <div class="content-section layout-footer clearfix" class="content-section layout-footer clearfix">
+            <span>My Ng Component</span>
+            <div class="footer-links">
+                <a href="">Git Link</a>
+                <div>
+                </div>
+            </div>
+        </div>

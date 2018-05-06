@@ -1,4 +1,13 @@
 <div class="demo_class">
-    <router-outlet></router-outlet>
-    Hello
-  </div>
+  <my-input label="Username" placeholder="Text"></my-input>
+  <my-input value="hghgghjgh" isOptional="true" label="Username" placeholder="Text"></my-input>
+  <my-input [isDisabled]="true" label="Username" placeholder="Text"></my-input>
+  <my-button icon="halflings halflings-triangle-bottom" iconPos="left"  id="basic" type="button" name="btn basic" class="basic" label="Basic"></my-button>
+  <my-button icon="halflings halflings-triangle-bottom" iconPos="right" id="btn-default" class="btn btn-default" type="button" label="Default"></my-button>
+  <my-button icon="halflings halflings-triangle-bottom" iconPos="right" id="btn btn-primary" class="btn btn-primary" type="button" label="Primary"></my-button>
+  <my-button icon="halflings halflings-triangle-bottom" id="btn-success" class="ui-button-success" type="button" label="Success"></my-button>
+  <my-button icon="halflings halflings-triangle-bottom" id="btn-info"    class="btn btn-info" type="button" label="Info"></my-button>
+  <my-button icon="halflings halflings-triangle-bottom" id="btn-warning" class="btn btn-warning" type="button" label="Warning"></my-button>
+  <my-button [disabled]="true" icon="halflings halflings-triangle-bottom" id="btn-danger" class="btn btn-danger" type="button" label="Danger"></my-button>
+  <my-button id="btn-link" class="btn-link" type="button" label="Link"></my-button>
+</div>

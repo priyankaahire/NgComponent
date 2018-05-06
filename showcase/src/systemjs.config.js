@@ -21,9 +21,68 @@
         '@angular/forms': 'npm:@angular/forms/bundles/forms.umd.js',
         '@angular/animations': 'npm:@angular/animations/bundles/animations.umd.js',
         '@angular/animations/browser': 'npm:@angular/animations/bundles/animations-browser.umd.js',
+        '@angular/common/http': 'npm:@angular/common/bundles/common-http.umd.js',
+        '@ngcomponents':'npm:@ngcomponents'
     };
-    // packages tells the System loader how to load when no filename and/or no extension
     var packages = {
+        'app': { main: 'main.js', defaultExtension: 'js' },
+        'rxjs': { defaultExtension: 'js' },
+        'moment': {defaultExtension : 'js' },
+        };
+     
+    var avPackageNames = [
+        'components',
+        'providers',
+        'pipes',
+        'services',
+        'directives',
+        'models'
+
+        ]
+    var ngPackageNames = [
+        'common',
+        'compiler',
+        'core',
+        'forms',
+        'http',
+        'platform-browser',
+        'platform-browser-dynamic',
+        'router',
+        'upgrade'
+        ];    
+    // packages tells the System loader how to load when no filename and/or no extension
+    function avpackIndex(pkgName) {
+    packages['@ngcomponents/'] = {main: 'index.js', defaultExtension: 'js' };
+    }
+    var avsetPackageConfig = avpackIndex;
+    avPackageNames.forEach(avsetPackageConfig);
+    
+    var config = {
+        paths: paths,
+        map: map,
+        packages: packages,
+        transpiler: 'ts',
+        typescriptOptions: {
+        emitDecoratorMetadata: true,
+        experimentalDecorators: true,
+        module: "commonjs"
+        },
+        
+        meta: {
+            'typescript': {
+            "exports":
+            "ts"
+            }
+        }
+    };
+
+    // filterSystemConfig - index.html's chance to modify config before we register it.
+    
+    if (global.filterSystemConfig) {
+    global.filterSystemConfig(config); }
+    System.config(config);
+    })(this);
+   /* var packages = {
         'app': { main: 'main.js', defaultExtension: 'js' },
         'rxjs': { defaultExtension: 'js' },
         'moment': { defaultExtension: 'js' },
@@ -51,4 +110,4 @@
 
     System.config(config);
 
-})(this);
+})(this);*/

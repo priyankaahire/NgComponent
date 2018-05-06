@@ -1,0 +1,107 @@
+#layout-topbar {
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.3);
+    -webkit-box-sizing: border-box;
+    background-color: #20272a;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.3);
+    box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    height: 70px;
+    left: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9997;
+}
+#layout-sidebar {
+    -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,.3);
+    background-color: #fff;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.3);
+    height: calc(100% - 70px);
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: fixed;
+    top: 70px;
+    width: 300px;
+}
+#layout-content {
+    background-color: #fff;
+    margin-left: 300px;
+    padding-top: 70px;
+}
+div {
+    display: block;
+}
+.content-section.introduction {
+    background-image: -webkit-gradient(linear,right top,left top,from(#2bc0ec),to(#1b81d7));
+    background-image: linear-gradient(to left,#2bc0ec,#1b81d7);
+    color: #fff;
+}
+.content-section {
+    background-color: #f5f7f8;
+    border-bottom: 1px solid #dde3e6;
+    display: block;
+    overflow: hidden;
+    padding: 30px;
+}
+.implementation {
+    background-color: #fff;
+    overflow: visible;
+}
+.content-section {
+    background-color: #f5f7f8;
+    border-bottom: 1px solid #dde3e6;
+    display: block;
+    overflow: hidden;
+    padding: 30px;
+}
+.layout-footer {
+    bottom: 0;
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    position: fixed;
+}
+.content-section {
+    background-color: #f5f7f8;
+    border-bottom: 1px solid #dde3e6;
+    display: block;
+    overflow: hidden;
+    padding: 30px;
+}
+#layout-sidebar .layout-menu>a.active-menuitem {
+    background-color: #fff!important;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+#layout-sidebar .layout-menu>a {
+    width: 100%;
+    height: 50px;
+    display: block;
+    padding: 15px 0 0 25px;
+    cursor: pointer;
+    border-top: 1px solid #e3e9ea;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #1b82d7;
+}
+.sidebar .layout-menu>div {
+    padding: 20px 15px;
+    overflow: hidden;
+    background-color: #fff;
+}
+#header-text {
+font-size: 37px;
+color: #fff;
+}
+#layout-sidebar .layout-menu>a:hover {
+    background-color: #eee;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}

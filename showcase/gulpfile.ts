@@ -93,6 +93,7 @@ gulp.task("libs", () => {
     .pipe(gulp.dest("build/lib"));
 });
 
+
 /**
  * Copy all stylesheets that are not TypeScript files into build directory.
  * Automated merge of all scss into single css and minification of Cascading Stylesheets
@@ -105,22 +106,23 @@ gulp.task('styles', () => {
 });
 //==============================================================================
 
+
 /**
- * Copy all required javascript libraries into build directory.
+ * Copy all required assetvantage libraries into build directory.
  */
 gulp.task("scripts", () => {
   return gulp.src([
+    'assets/**/*.*',
     'components/**/*.*',
-    'directives/*.*',
-    'interface/*.*',
-    'pipes/**/*.*',
     'models/*.*',
     'services/*.*',
     'providers/*.*',
     'index.js',
+    'index.d.ts',
     'index.js.map'
-  ], { cwd: "build/app/shared/**" }) /* Glob required here. */
-    .pipe(gulp.dest("build/dist/@ngcomponents"));
+  ], { cwd: "../components/build/dist/**" }) /* Glob required here. */
+    .pipe(gulp.dest("build/lib"))
+    .pipe(gulp.dest("node_modules"));
 });
 
 /**
@@ -129,30 +131,15 @@ gulp.task("scripts", () => {
 gulp.task('typings', () => {
   return gulp.src([
     'components/**/*.ts',
-    'directives/*.ts',
-    'interface/*.ts',
-    'pipes/**/*.ts',
     'services/*.ts',
     'providers/*.ts',
     'models/*.ts',
     'index.ts'
-  ], { cwd: "src/app/shared/**" }) /* Glob required here. */
-    .pipe(tsProject()).dts.pipe(gulp.dest('build/dist/@ngcomponents'));
+  ], { cwd: "src/app/**" }) /* Glob required here. */
+    .pipe(tsProject()).dts.pipe(gulp.dest('build/lib/@ngcomponents'));
 });
 
-/**
- * Copy assets from build directory into @ngcomponents directory.
- */
-gulp.task('assets', () => {
-  return gulp.src([
-    'fonts/*.*',
-    'icons/**/*.*',
-    'images/*.*',
-    'styles/*.*'
-  ], { cwd: "build/assets/**" })
-    .pipe(csscomb())
-    .pipe(gulp.dest('build/dist/@ngcomponents/assets'));
-});
+
 
 /**
  * Watch for changes in TypeScript, HTML and CSS files.
@@ -174,7 +161,7 @@ gulp.task('watch', function () {
  */
 // gulp.task('build', gulp.series('tslint', 'csslint', 'compile', 'resources', 'libs', 'styles', 'minify-css'))
 gulp.task('build', function (done) {
-  runSequence('tslint', 'csslint', 'compile', 'resources', 'libs', 'styles', 'scripts', 'typings', 'assets', function () {
+  runSequence('tslint', 'csslint', 'compile', 'resources', 'libs', 'styles', 'scripts', 'typings', function () {
     console.log('building the project ...');
     done();
   });

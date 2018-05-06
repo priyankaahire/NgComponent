@@ -1,0 +1,222 @@
+// /* Button */
+
+// .my-input-button {
+    // cursor: pointer;
+    // display: inline-block;
+    // margin-right: .1em;
+    // overflow: visible;
+    // padding: 0;
+    // position: relative;
+    // text-align: center;
+    // text-decoration: none !important;
+// }
+
+// .my-input-button-icon-only {
+//     width: 2em;
+// }
+
+
+// /*button text element */
+
+// .my-input-button .my-input-button-text {
+//     line-height: normal;
+// }
+
+// .my-input-button-text-only .my-input-button-text {
+//     padding: .25em 1em;
+// }
+
+// .my-input-button-icon-only .my-input-button-text {
+//     padding: .25em;
+//     text-indent: -9999999px;
+// }
+
+// .my-input-button-text-icon-left .my-input-button-text {
+//     padding: .25em 1em .25em 2.1em;
+// }
+
+// .my-input-button-text-icon-right .my-input-button-text {
+//     padding: .25em 2.1em .25em 1em;
+// }
+
+
+
+// /*button icon element(s) */
+
+// .my-input-button-icon-only .fa,
+// .my-input-button-text-icon-left .fa,
+// .my-input-button-text-icon-right .fa {
+//     margin-top: -.5em;
+//     position: absolute;
+//     top: 50%;
+// }
+
+// .my-input-button-icon-only .fa {
+//     left: 50%;
+//     margin: -.5em 0 0 -.5em;
+//     top: 50%;
+// }
+
+// .my-input-button-icon-left {
+//     float: left;
+//     left: .5em;
+// }
+
+// .my-input-button-icon-right {
+//     float: right;
+//     right: .5em;
+// }
+
+
+// /*button sets*/
+
+// .my-input-buttonset .my-input-button {
+//     margin: 0 0 0 0;
+// }
+
+
+// /* workarounds */
+
+// button.my-input-button::-moz-focus-inner {
+//     border: 0;
+//     padding: 0;
+// }
+.btn {
+    -moz-user-select: none;
+    -ms-touch-action: manipulation;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    background-image: none;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+/* Button */
+.ui-button { 
+    cursor: pointer; 
+    display: inline-block; 
+    margin-right: .1em; 
+    overflow: visible; /* the overflow property removes extra width in IE */
+    padding: 0; 
+    position: relative; 
+    text-align: center; 
+    text-decoration: none !important; 
+    zoom: 1; 
+} 
+
+.p-button {
+    display: inline-block; 
+}
+
+.ui-button-icon-only { 
+    width: 2em;
+} 
+
+/*button text element */
+.ui-button .ui-button-text { 
+    line-height: normal;  
+}
+
+.ui-button-text-only .ui-button-text { 
+    padding: .25em 1em; 
+}
+
+.ui-button-icon-only .ui-button-text,
+.ui-button-text-empty .ui-button-text { 
+    overflow: hidden;
+    padding: .25em; 
+    text-indent: -9999999px; 
+}
+
+.ui-button-text-icon-left .ui-button-text { 
+    padding: .25em 1em .25em 2.1em; 
+}
+
+.ui-button-text-icon-right .ui-button-text { 
+    padding: .25em 2.1em .25em 1em; 
+}
+
+/*button icon element(s) */
+.ui-button-icon-only .fa,
+.ui-button-text-icon-left .fa,
+.ui-button-text-icon-right .fa {
+    height: 1em;
+    margin-top: -.5em; 
+    position: absolute; 
+    top: 50%;
+}
+
+.ui-button-icon-only .fa {
+    height: 1em;
+    left: 50%;
+    margin-left: -.5em;
+    margin-top: -.5em;
+    top: 50%;
+    width: 1em;
+}
+
+.ui-button-icon-left {
+    float: left;
+    left: .5em; 
+}
+
+.ui-button-icon-right {
+    float: right;
+    right: .5em; 
+}
+
+/*button sets*/
+.ui-buttonset .ui-button { 
+    margin-left: 0; 
+    margin-right: 0;
+}
+
+/* workarounds */
+button.ui-button::-moz-focus-inner { 
+    border: 0; padding: 0; /* reset extra padding in Firefox */
+}
+
+/** Fluid **/
+.ui-fluid .ui-button {
+    width: 100%;
+}
+
+.ui-fluid .ui-button-text-icon-left .ui-button-text,
+.ui-fluid .ui-button-text-icon-right .ui-button-text {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+/** ButtonSet **/
+.ui-fluid .ui-buttonset {
+    width: 100%;
+}
+
+.ui-fluid .ui-buttonset.ui-buttonset-1 .ui-button {width: 100%;}
+.ui-fluid .ui-buttonset.ui-buttonset-2 .ui-button {width: 50%;}
+.ui-fluid .ui-buttonset.ui-buttonset-3 .ui-button {width: 33.3%;}
+.ui-fluid .ui-buttonset.ui-buttonset-4 .ui-button {width: 25%;}
+.ui-fluid .ui-buttonset.ui-buttonset-5 .ui-button {width: 20%;}
+.ui-fluid .ui-buttonset.ui-buttonset-6 .ui-button {width: 16.6%;}
+
+@media (max-width: 640px) {
+    .ui-fluid .ui-buttonset.ui-buttonset-1 .ui-button,
+    .ui-fluid .ui-buttonset.ui-buttonset-2 .ui-button,
+    .ui-fluid .ui-buttonset.ui-buttonset-3 .ui-button,
+    .ui-fluid .ui-buttonset.ui-buttonset-4 .ui-button,
+    .ui-fluid .ui-buttonset.ui-buttonset-5 .ui-button,
+    .ui-fluid .ui-buttonset.ui-buttonset-6 .ui-button {
+        width: 100%;
+    }
+}

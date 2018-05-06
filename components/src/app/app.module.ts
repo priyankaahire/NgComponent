@@ -5,12 +5,9 @@ import { FormBuilder, FormsModule, FormGroup, Validators } from '@angular/forms'
 import { AppComponent } from "./app.component";
 import { HttpModule } from '@angular/http';
 import { appRouting, appRoutingProviders } from './app.routing';
-import { AppErrorHandler} from '../app/shared/index';
-
-//import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AppErrorHandler, InputModule, ButtonModule} from '../app/shared/index';
 /*
 
-https://angular.io/docs/ts/latest/
 
 NgModule is a decorator function that takes a single metadata object whose properties describe the module. The most important properties are:
 
@@ -37,12 +34,12 @@ symbols -
 
 */
 @NgModule({
-  imports: [BrowserModule],
-  exports: [],
-  schemas: [CUSTOM_ELEMENTS_SCHEMA],
   declarations: [AppComponent],
+  imports: [BrowserModule, InputModule, ButtonModule],
+  exports: [],
   providers: [RouterLink, FormBuilder, appRoutingProviders, { provide: ErrorHandler, useClass: AppErrorHandler }],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
 })
 export class AppModule {
 }

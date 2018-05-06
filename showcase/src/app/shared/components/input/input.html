@@ -1,9 +1,0 @@
-<div *ngIf="!label"  class="av-input-container">
-    <input [ngClass]="{'av-input': true}" [style.text-align]="align" [style.width.px]="width" [type]="type" [(ngModel)]="value" [placeholder]="placeholder" [readonly]="(readonly ? 'readonly':null)">
-</div>
-<div *ngIf="label" class="av-input-container">
-        <label>{{label}}</label><span *ngIf="isOptional" class="option_class">-Optional</span>
-        <input *ngIf="!isDisabled" [ngClass]="{'av-input': true}" [placeholder]="placeholder" [style.text-align]="align" [style.width.px]="width" [type]="type" [(ngModel)]="value" [readonly]="(readonly ? 'readonly':null)">
-        <input disabled *ngIf="isDisabled"[ngClass]="{'av-input': true}" [placeholder]="placeholder" [style.text-align]="align" [style.width.px]="width" [type]="type" [(ngModel)]="value" [readonly]="(readonly ? 'readonly':null)">
-</div>
-
